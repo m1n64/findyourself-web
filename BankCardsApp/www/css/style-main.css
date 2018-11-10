@@ -1,0 +1,33 @@
+.main-test-head {
+    text-align: center;
+    font-size: 14pt;
+}
+.main-test-op {
+    text-align: justify;
+}
+.main-test-p {
+    margin-top: 4%;
+    color: #101010;
+    font-size: 14pt;
+}
+.description {
+    text-align: justify;
+    margin-top: 1%;
+}
+
+.my-type {
+    text-align: center;
+    font-size: 16pt;
+    opacity: 0.0;
+}
+
+.my-type-description {
+    margin-top: 4%;
+}
+
+    .my-type-description > em {
+    }
+
+.my-type-description {
+    display: none;
+}

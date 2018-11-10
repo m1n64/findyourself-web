@@ -1,0 +1,51 @@
+﻿<!DOCTYPE html>
+<html>
+    <head>
+    <!--
+        Настройте политику безопасности содержимого в метатеге ниже. Добавьте "unsafe-inline" к default-src, чтобы включить встроенный код JavaScript.
+        Дополнительные сведения см. по ссылке http://go.microsoft.com/fwlink/?LinkID=617521
+    -->
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *">
+        
+        <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <link rel="stylesheet" type="text/css" href="libs/material/css/materialize.min.css">
+        <link rel="stylesheet" type="text/css" href="icons.css">
+        <title>Моя профессия</title>
+    </head>
+    <body>
+        <nav>
+            <div class="nav-wrapper blue lighten-1">
+                <a href="#!" class="brand-logo">...</a>
+                <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="icon-ic_menu_48px"></i></a>
+            </div>
+        </nav>
+
+        <ul class="sidenav" id="mobile-demo">
+            <li><a href="index.html">Професии</a></li>
+            <li><a href="test.html">Пройти тест</a></li>
+            <li><div class="divider"></div></li>
+            <li><a href="#">Авторы</a></li>
+        </ul>
+
+        <div class="fixed-action-btn ">
+            <a href="test.html" class="btn-floating btn-large blue lighten-1 waves-effect waves-light">
+                <i class="icon-ic_mode_edit_48px"></i>
+            </a>
+        </div>
+
+        <div class="main"></div>
+
+        <script type="text/javascript" src="libs/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="libs/material/js/materialize.min.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="scripts/platformOverrides.js"></script>
+        <script type="text/javascript" src="libs/base64.js"></script>
+        <script type="text/javascript" src="scripts/index.js"></script>
+
+        <p class="hide" id="hide-geo"></p>
+    </body>
+</html>

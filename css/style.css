@@ -1,0 +1,53 @@
+﻿htlm, body
+{
+
+}
+.burger
+{
+    margin-left: 2rem;
+}
+h{
+    display: block;
+}
+/*Бэкграунд на слайдах*/
+.first-item
+{
+   background: url(/images/kaska.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.second-item
+{
+   background: url(/images/kruzhka.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.thrid-item
+{
+   background: url(/images/mak.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*Редактирую текст на слайдах*/
+.carousel.carousel-slider .carousel-item p {
+    font-size: 20px;
+}
+.carousel.carousel-slider .carousel-item h2 {
+    font-size: 40px;
+}
+.carousel .indicators .indicator-item
+{
+    width: 12px;
+    height: 12px;
+}
+.txt
+{
+    margin-top: 30vh;
+    /*background-color: rgba( 21, 49, 49, 0.595 );*/
+}

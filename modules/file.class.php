@@ -13,7 +13,7 @@ class FileApi
         return $f ? true : false;
     }
     
-    public function ReadIntoFile($file)
+    public function ReadFromFile($file)
     {
         $t = file_get_contents($file);
         return strlen($t) > 0 ? $t : false;

@@ -9,3 +9,7 @@
 .changelog .is-alpha { color: #FF4649; }
 
 .download-button { margin-top: 1%; }
+
+.footer-attention {
+    font-size: 11px;
+}

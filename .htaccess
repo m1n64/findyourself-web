@@ -11,3 +11,6 @@ RewriteCond   %{REQUEST_FILENAME} !-f
 
 RewriteRule ^test/$ test.php [QSA,L]
 RewriteRule ^download-app/$ download.php [QSA,L]
+
+ErrorDocument 403 /errors/403.html
+ErrorDocument 404 /errors/404.html

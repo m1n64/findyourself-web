@@ -52,3 +52,6 @@ $color: #bdbdbd;
     margin-top: 1%;
 }
 ```
+
+
+[changelog](https://gitlab.com/findyourself/findyourself-web/blob/master/CHANGELOG.md "changelog")

@@ -1,0 +1,111 @@
+/* CSS Document */
+@font-face{
+    font-family: Rubik;
+    src: url(fonts/Rubik-Medium.ttf);
+}
+@font-face{
+    font-family: RubikRegulary;
+    src: url(fonts/Rubik-Regular.ttf);
+}
+.main-card-text{
+    margin: 1%;
+}
+/*.main-test > .col > .with-gap{*/
+.main-test > .col{
+    padding: 1%;
+    border-bottom: #B1B1B1 solid 1px;
+
+}
+.main-test > .main-test-left{
+    border-left: #B1B1B1 solid 1px;   
+}
+.main-test > .main-test-right{
+    border-right: #B1B1B1 solid 1px;
+}
+.nav-fixed {
+    margin-top: -6%;
+    z-index: 5;
+    position: fixed;
+}
+
+.row-main {
+    position: relative;
+    margin-top: 6%;
+}
+.before{
+    margin-top: 3em;
+}
+.main-test-text-head{
+    font-family: Rubik;
+    font-size: 20pt;
+}
+
+@media only screen and (max-width: 600px){
+   .nav-fixed {
+        margin-top: 0%;
+        position: relative;
+    } 
+    .main-test > .col{
+        padding: 3%;
+        border-bottom: #B1B1B1 solid 0px;
+
+    }
+    .main-test > .main-test-left{
+        border-left: #B1B1B1 solid 0px;   
+    }
+    .main-test > .main-test-right{
+        border-right: #B1B1B1 solid 0px;
+    }
+    .js-error{
+        margin-top: -3%;
+    }
+}
+@media only screen and (min-width: 600px){
+   .nav-fixed {
+        margin-top: -10%;
+    } 
+    .row-main{
+        margin-top: 10%;
+    }
+}
+@media only screen and (min-width: 900px){
+   .nav-fixed {
+        margin-top: -6%;
+    } 
+    .row-main{
+        margin-top: 6%;
+    }
+}
+.main-test-text {
+    font-family: RubikRegulary;
+    font-size: 14pt;
+}
+.description{
+    text-align: justify;
+    margin-top: 1%;
+}
+.my-type{
+    text-align: center;
+    font-size: 16pt;
+    opacity: 0.0;
+}
+.my-type-description{
+    margin-top: 1%;
+}
+.my-type-description > em{
+    
+}
+.my-type-description{
+    display: none;
+}
+#chart {
+/*
+    width: 0px;
+    height: 0px;
+*/
+}
+
+.footer-attention {
+    font-size: 11px;
+}
+

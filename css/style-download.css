@@ -1,0 +1,15 @@
+.version { color: #bdbdbd; margin-right: 10px; }
+
+.changelog { border: #C6ECFF solid 1px; border-radius: 20px; padding: 10px; }
+
+.changelog .version { color: #0F0F0F; font-size: 30px; }
+
+.changelog .fix-version ul { list-style: circle; padding-left: 20px; }
+
+.changelog .is-alpha { color: #FF4649; }
+
+.download-button { margin-top: 1%; }
+
+.footer-attention {
+    font-size: 11px;
+}

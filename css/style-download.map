@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "../scss/style-download.css",
+	"sources": [
+		"../scss/style-download.scss"
+	],
+	"sourcesContent": [
+		"$mr-v: 10px;\r\n$color: #bdbdbd;\r\n\r\n.version \r\n{\r\n    color: $color;\r\n    margin-right: $mr-v;\r\n}\r\n\r\n.changelog\r\n{\r\n   .version\r\n    {\r\n        color: #0F0F0F;\r\n        font-size: 30px;\r\n    }\r\n}"
+	],
+	"mappings": ";AAGA,AAAA,QAAQ,CACR;EACI,KAAK,EAJD,OAAO;EAKX,YAAY,EANT,IAAI;CAOV;;;AAED,AAEG,UAFO,CAEP,QAAQ,CACP;EACI,KAAK,EAAE,OAAQ;EACf,SAAS,EAAE,IAAK;CACnB",
+	"names": []
+}

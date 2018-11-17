@@ -26,7 +26,9 @@
                 <a href="#" class="brand-logo hide-on-med-and-down">FindYourself</a>
                 <a class='dropdown-trigger hide-on-large-only show-on-medium-and-down' href='test/#' data-target='dropdown1'>  <i class="large material-icons burger">dehaze</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#">Профессии</a>
+                    <li><a href="#">Главная</a>
+                    </li>
+                    <li><a href="professions/">Профессии</a>
                     </li>
                     <li><a href="test/">Тест</a>
                     </li>
@@ -38,7 +40,9 @@
     </nav>
     <!-- Dropdown Structure -->
     <ul id='dropdown1' class='dropdown-content'>
-        <li><a href="#!" class="blue-text lighten-1">Профессии</a>
+        <li><a href="#" class="blue-text lighten-1">Главная</a>
+        </li>
+        <li><a href="professions/" class="blue-text lighten-1">Профессии</a>
         </li>
         <li><a href="test/" class="blue-text lighten-1">Тест</a>
         </li>

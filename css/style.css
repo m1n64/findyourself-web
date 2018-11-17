@@ -1,0 +1,139 @@
+htlm, body {
+    height: 100%;
+    z-index: 1;
+}
+.burger {
+    margin-left: 2rem;
+}
+p {
+    display: block;
+}
+span::selection {
+    background: #616161;
+    color: whitesmoke;
+}
+i::selection {
+    background: #616161;
+    color: whitesmoke;
+}
+a::selection {
+    background: #616161;
+    color: whitesmoke;
+}
+p::selection {
+    background: #616161;
+    color: whitesmoke;
+}
+li::selection {
+    background: #616161;
+    color: whitesmoke;
+}
+h1, h3, h4::selection {
+    background: #616161;
+    color: whitesmoke;
+}
+h5::selection {
+    background: #616161;
+    color: whitesmoke;
+}
+h2::selection {
+    background: #616161;
+    color: whitesmoke;
+}
+blockquote::selection {
+    background: #616161;
+    color: whitesmoke;
+}
+h {
+    display: block;
+}
+/*Бэкграунд на слайдах*/
+.first-item {
+    background: url(/images/kaska.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.second-item {
+    background: url(/images/kruzhka.png) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.thrid-item {
+    background: url(/images/mak.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+/*Редактирую текст на слайдах*/
+.carousel.carousel-slider .carousel-item p {
+    font-size: 20px;
+}
+.carousel.carousel-slider .carousel-item h2 {
+    font-size: 40px;
+}
+.carousel .indicators .indicator-item {
+    width: 12px;
+    height: 12px;
+}
+.txt {
+    margin-top: 30vh;
+}
+.footer-attention {
+    font-size: 11px;
+}
+.push_nv {
+    z-index: 3;
+}
+.par_text {
+    margin-top: 200px;
+    font-size: 4.2em;
+    color: #F1F1F1;
+    background-color: rgba(18,18,18,0.53);
+    text-shadow: 1px 1px 3px black;
+    padding: 10px;
+}
+.preim_content {
+    margin-top: 10px;
+}
+ul>li {
+    list-style: circle;
+}
+.alpha {
+    border: 1px solid #42a5f5;
+    border-radius: 20px;
+}
+.down {
+    display: flex;
+    margin-top: 20px;
+}
+.version {
+    margin-right: 5px;
+    color: #bdbdbd;
+}
+.names-tag {
+    margin-top: 2em;
+}
+@media (max-width: 600px){
+    .par_text{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 600px){
+    .par_text{
+        margin-right: 20%;
+        margin-left: 20%;
+    }
+}
+@media (min-width: 900px){
+    .par_text{
+        margin-left: 30%;
+        margin-right: 30%;
+    }
+}

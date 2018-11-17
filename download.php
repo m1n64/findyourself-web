@@ -17,7 +17,6 @@
     <title>Приложение "Найди себя"</title>
 
 </head>
-
 <body>
     <div class="js-error">
         <div id="error"></div>
@@ -28,7 +27,9 @@
                 <a href="#" class="brand-logo hide-on-med-and-down">FindYourself</a>
                 <a class='dropdown-trigger hide-on-large-only show-on-medium-and-down' href='download-app/#' data-target='dropdown1'>  <i class="large material-icons burger">dehaze</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="#">Профессии</a>
+                    <li><a href="#">Главная</a>
+                    </li>
+                    <li><a href="professions/">Профессии</a>
                     </li>
                     <li><a href="test/">Тест</a>
                     </li>
@@ -40,31 +41,15 @@
     </nav>
     <!-- Dropdown Structure -->
     <ul id='dropdown1' class='dropdown-content'>
-        <li><a href="#!" class="blue-text lighten-1">Профессии</a>
+        <li><a href="#" class="blue-text lighten-1">Главная</a>
+        </li>
+        <li><a href="professions/" class="blue-text lighten-1">Профессии</a>
         </li>
         <li><a href="test/" class="blue-text lighten-1">Тест</a>
         </li>
         <li><a href="download-app/" class="blue-text lighten-1">Мобильное приложение</a>
         </li>
     </ul>
-    <!--
-    <main class="main">
-        <div class="row">
-            <div class="col s12 m12 l8 offset-l2">
-                <div class="card">
-                    <div class="card-content">
-                        <span class="card-title">"Найди себя"</span>
-                            
-                    </div>
-                    <div class="card-action right-align">
-                        <span class="version">Версия 0.12.1ALPFA</span>
-                        <a href="#" class="btn waves-effect waves-light blue lighten-1">This is a link</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </main>
--->
     <div class="parallax-container">
         <div class="parallax"><img src="images/mak.jpg">
         </div>
@@ -90,7 +75,7 @@
             </div>
             <div class="download-button right">
                 <span class="version">Версия 0.12.1ALPFA</span>
-                <a href="files/app/0_12_1A.apk" download class="btn waves-effect waves-light blue lighten-1">Скачать</a>
+                <a href="files/app/0_12_1A.apk" download class="btn waves-effect waves-light blue lighten-1"><i class="material-icons left">file_download</i>Скачать</a>
             </div>
         </div>
     </div>

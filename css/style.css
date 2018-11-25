@@ -87,7 +87,7 @@ h {
     font-size: 11px;
 }
 .push_nv {
-    z-index: 3;
+    z-index: 10;
 }
 .par_text {
     margin-top: 200px;
@@ -118,22 +118,43 @@ ul>li {
 .names-tag {
     margin-top: 2em;
 }
+@media (min-width: 600px){
+    .par_text{
+        margin-right: 15%;
+        margin-left: 15%;
+    }
+}
 @media (max-width: 600px){
     .par_text{
         margin-left: 0;
         margin-right: 0;
     }
-}
-
-@media (min-width: 600px){
-    .par_text{
-        margin-right: 20%;
-        margin-left: 20%;
-    }
-}
+}    
 @media (min-width: 900px){
     .par_text{
-        margin-left: 30%;
-        margin-right: 30%;
+        margin-left: 25%;
+        margin-right: 25%;
     }
+}
+.card .card-title {
+    font-size: 22px;
+    font-weight: 400;
+    word-wrap: break-word;
+    line-height: 25px;
+}
+.card .card-content .card-title {
+    margin-bottom: 20px;
+    display: block;
+    line-height: 25px;    
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}
+.card_p
+{
+    word-wrap: break-word;
+}
+.txt_car{
+    text-align: justify;
 }

@@ -49,13 +49,17 @@
         <li><a href="download-app/" class="blue-text lighten-1">Мобильное приложение</a>
         </li>
     </ul>
+    
+    
     <main class="row-main">
         <div class="row">
             <div class="col s12 m12 l12 center-align">
                 <span class="main-test-text-head">Пройти тест</span>
             </div>
+            <div class="container">
             <div class="col s12 m12 l12 center after">
                 <span class="main-test-text">Вам предлагается 43 пары профессий, причем каждой паре Вы обязаны выбрать одну: наиболее желательную или наименее «противную».</span>
+            </div>
             </div>
             <div class="container" id="head">
                 <div class="col s12 m12 l12 center before">
@@ -82,6 +86,9 @@
             </div>
         </div>
     </main>
+    
+    
+    
     <footer class="page-footer blue lighten-1">
         <div class="container">
             <div class="row">

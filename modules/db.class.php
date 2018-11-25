@@ -16,7 +16,7 @@
             $this->connect = $link;
         }
         
-        function Select(array $tables, string $table)
+        function Select(array $tables, string $table, string $add = "")
         {
             $rows = "";
             if (count($tables) == 0)
@@ -34,7 +34,7 @@
                 $rows .= " )";
             }
             
-            $sql = "SELECT $rows FROM $table";
+            $sql = "SELECT $rows FROM $table $add";
             
             $q = mysqli_query($this->connect, $sql);
             
@@ -60,9 +60,9 @@
                 return "no_data_in_table";
         }
         
-        function SelectWhere(array $tables, array $data, string $table, $logic = "AND")
+        function SelectWhere(array $tables, array $data, string $table, $logic = "AND", string $add = "")
         {
-            $rows = "";
+            $rows = ""; 
             $log = "";
             $where = "";
             switch (strtoupper($logic))
@@ -102,7 +102,7 @@
             unset($tmp[count($tmp)-2]);
             $where = implode(" ", $tmp);
             
-            $sql = "SELECT $rows FROM $table WHERE $where";
+            $sql = "SELECT $rows FROM $table WHERE $where $add";
 
             $q = mysqli_query($this->connect, $sql);
             
@@ -149,30 +149,9 @@
                 $k++;
             }
             $sql .= "INSERT INTO $table($rows) VALUES($values)";
-            echo $sql;
+            
             mysqli_query($this->connect, $sql);
         }
-//        
-//        function InsertInteger(array $data, string $table)
-//        {
-//            $rows = "";
-//            $values = "";
-//
-//            $k = 0;
-//            foreach ($data as $key => $d)
-//            {
-//                $rows .= "$key";
-//                $values .= "$d";
-//                if ($k != count($data)-1) 
-//                {
-//                    $rows .= ", ";
-//                    $values .= ", ";
-//                }
-//                $k++;
-//            }
-//            $sql .= "INSERT INTO $table($rows) VALUES($values)";
-//            mysqli_query($this->connect, $sql);
-//        }
     }
 
 ?>

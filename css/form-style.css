@@ -28,3 +28,6 @@ blockquote {
     background-color: rgba(178,206,246,0.20); 
     outline: none;
 }
+.hidden{
+    display: none;
+}

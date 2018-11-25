@@ -1,6 +1,6 @@
 # Веб-сайт "Найди себя"
 
-Последняя версия: [1.7](https://drive.google.com/drive/folders/1PEYafJkPn3FRDzavtrz-W1OlMiWL164g "1.7")
+Последняя версия: [1.8](https://drive.google.com/drive/folders/13qoW69cMDV-4Z-W_rpbDvTQuiLe5_fLO "1.8")
 Ссылка на **Google Drive**: [drive.google](https://drive.google.com/drive/folders/1BgcGTCJqrJJ_PbVH4EhBuQ3eXZiHzXXq "drive.google")
 
 ###### ГЛАВНЫМ ДОСТИЖЕНИЕМ СТАЛО ПЕРЕХОД НА SASS.

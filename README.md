@@ -5,11 +5,11 @@
 
 ### PMY login/password
 ![](https://pp.userapi.com/c845018/v845018854/148d3b/mApkzvXLi1Q.jpg)
-user name: ** fy_user **
+user name: **fy_user**
 ![](https://pp.userapi.com/c845018/v845018854/148d4f/mWciNVBJ42U.jpg)
-password: ** find_yourselfSPDB1265 **
+password: **find_yourselfSPDB1265**
 ![](https://pp.userapi.com/c845018/v845018854/148d59/ui48rX9kzj4.jpg)
-** !!!!!! ВАЖНО !!!!!! **
+**!!!!!! ВАЖНО !!!!!!**
 ![](https://pp.userapi.com/c845018/v845018854/148d63/RpbaZFDFe2M.jpg)
 ОКЕЙ
 ![](https://pp.userapi.com/c845018/v845018854/148d6d/Nm5Dj2rtJuw.jpg)

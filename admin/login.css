@@ -1,0 +1,32 @@
+/* CSS Document */
+/*
+
+#desc {
+    background-color: rgba(223,223,223,1.00);
+}
+*/
+textarea {
+    -webkit-appearance: textarea;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    padding: 2px;
+    resize: none;
+    height: 100px;
+    border-radius: 10px;
+    
+}
+textarea:focus {
+    border: rgba(123,191,255,1.00) solid 1px;
+    
+}
+.label {
+/*    color: */
+}
+#ts {
+    background-color: rgba(255,255,255,1.00);
+    border: rgba(184,184,184,1.00) solid 1px;
+    padding: 10px;
+}
+#fullName {
+    height: 300px;
+}

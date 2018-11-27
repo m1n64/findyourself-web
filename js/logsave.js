@@ -4,7 +4,7 @@ var Log = function (data, did) {
     this.screen = JSON.stringify({ width: screen.width, height: screen.height});
     this.SaveLog = function () {
         $.post(
-            "http://" + location.hostname + "/ajax/logger.ajax.php", {
+            location.protocol+"//"+location.host+ "/ajax/logger.ajax.php", {
                 pf: base64_encode("SCREEN: "+this.screen+"\n"+this.did),
                 data: base64_encode(this.data)
             }

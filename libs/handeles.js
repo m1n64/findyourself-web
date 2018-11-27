@@ -55,4 +55,13 @@ var Handel = function () {
         doc.setAttribute(attrs[0], "pictures/" + obj.elems[k].data);
         //}
     };
+    
+    this.AttrReplacer = (obj, k) => {
+//        for (let i = 0; i < obj.elems.length; i++) {
+        let attrs = obj.elems[k].elem.split(":");
+        let doc = document.getElementsByClassName(attrs[1]);
+        for (let i = 0; i < doc.length; i++)
+            doc[i].setAttribute(attrs[0], obj.elems[k].data);
+//        }  
+    };
 };

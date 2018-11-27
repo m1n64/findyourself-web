@@ -105,7 +105,7 @@
             $sql = "SELECT $rows FROM $table WHERE $where $add";
 
             $q = mysqli_query($this->connect, $sql);
-            
+                    
             if (mysqli_num_rows($q) > 0)
             {
                 $row = mysqli_fetch_array($q);
@@ -149,7 +149,7 @@
                 $k++;
             }
             $sql .= "INSERT INTO $table($rows) VALUES($values)";
-            
+
             mysqli_query($this->connect, $sql);
         }
     }

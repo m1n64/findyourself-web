@@ -8,6 +8,7 @@
     <link type="text/css" rel="stylesheet" href="libs/material/css/materialize.min.css" media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/form-style.css">
     <link type="text/css" rel="stylesheet" href="css/style.css"/>
+    <link rel="icon" href="images/icon-96-xhdpi.png" type="image/x-icon"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -196,17 +197,17 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N1P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <span class="card-title activator grey-text text-darken-4 c_N1">{{news_name1}}</span>
+                            <p><a href="#" class="c_N1L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ<i class="material-icons right">close</i></span>
-                            <p class="card_p">Для поступающих, студентов и их родителей действительно важно знать, какие же профессии в нашей стране являются самыми высокооплачиваемыми. Ведь четыре года обучения пролетают очень быстро, и настает время выбирать, где и кем ты будешь работать, по специальности или нет.
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <span class="card-title grey-text text-darken-4 c_N1">{{news_name1}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N1">{{news_desc1}}
+                                <p><a href="#" class="c_N1L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -214,17 +215,17 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/Ster.jpg">
+                            <img class="activator c_N2P2" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Стереотипы о профессиях</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <span class="card-title activator grey-text text-darken-4 c_N2">{{news_name2}}</span>
+                            <p><a href="#" class="c_N2L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Стереотипы о профессиях<i class="material-icons right">close</i></span>
-                            <p class="card_p">Продавцы крадут. Журналисты обманывают. Врачи неразборчиво пишут. Актёры истеричны. Программисты не ухожены. Художники страдают алкоголизмом. Модели глупые. Дизайнеры вычурные. Певцы самолюбивые. Тренеры грубые. Библиотекари занудные. Милиционер, пилот, водитель, машинист — исключительно мужские профессии. Работать секретарём, кассиром, воспитателем под стать слабому полу, но не сильному — стыдно. Фотосъёмка, визаж, репетиторство — и вовсе занятия, которые легко освоит любой.
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <span class="card-title grey-text text-darken-4 c_N2">{{news_name2}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N2">{{news_desc2}}
+                                <p><a href="#" class="c_N2L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -232,17 +233,17 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top_2.jpg">
+                            <img class="activator c_N3P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Топ-10 самых востребованных профессий в Беларуси</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <span class="card-title activator grey-text text-darken-4 c_N3">{{news_name3}}</span>
+                            <p><a href="#" class="c_N3L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Топ-10 самых востребованных профессий в Беларуси<i class="material-icons right">close</i></span>
-                            <p class="card_p">Повторяя общмировые тенденции кадрового обеспечения, в деталях Беларусь следует своим путем. Среди "наших" топ-профессий есть такие, как повар, врач государственной клиники и продавец.
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <span class="card-title grey-text text-darken-4 c_N3">{{news_name3}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N3">{{news_desc3}}
+                                <p><a href="#" class="c_N3L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -250,18 +251,17 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N4P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Интервью с преподавателем</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <span class="card-title activator grey-text text-darken-4 c_N4">{{news_name4}}</span>
+                            <p><a href="#" class="c_N4L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Интервью с преподавателем
-«Самое сложное в профессии, среди всей бумажной работы оставить время на работу с детьми»<i class="material-icons right">close</i></span>
-                            <p class="card_p">Сегодня мы беседуем с преподавателем учреждения образования «Гомельский государственный машиностроительный колледж» Завацкой Аленой Николаевной. -Расскажите подробнее о том, что вы преподаете? -Я преподаю спец. дисциплины для специальности «Программное обеспечение информационных технологий», а именно «Защиту компьютерной информации» и «Тестирование и отладку программного обеспечения». Это не полный список преподаваемых дисциплин, но эти мне нравятся больше всего, их я преподаю уже 4 года. -Нравится ли Вам ваша работа?
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <span class="card-title grey-text text-darken-4 c_N4">{{news_name4}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N4">{{news_desc4}}
+                                <p><a href="#" class="c_N4L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -277,16 +277,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator c_N1P1" src="">
+                            <img class="activator c_N5P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4 c_N1">{{news_name1}}</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N5">{{news_name5}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4 c_N1">{{news_name1}}<i class="material-icons right">close</i></span>
-                            <p class="card_p c_N1">{{news_desc1}}
+                            <span class="card-title grey-text text-darken-4 c_N5">{{news_name5}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N5">{{news_desc5}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -295,16 +295,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator c_N2P2" src="">
+                            <img class="activator c_N62" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4 c_N2">{{news_name2}}</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N6">{{news_name6}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4 c_N2">{{news_name2}}<i class="material-icons right">close</i></span>
-                            <p class="card_p c_N2">{{news_desc2}}
+                            <span class="card-title grey-text text-darken-4 c_N6">{{news_name6}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N6">{{news_desc6}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -313,16 +313,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N7P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N7">{{news_name7}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ<i class="material-icons right">close</i></span>
-                            <p class="card_p">Here is some more information about this product that is only revealed once clicked asdlkjsakldaskldjaskldjaskldjksajdklasjdlkasjdjlkasdkljsalkdaskldkaljsdaskljdasjkldjksakldsajkldjsadkljasdksakljdkljsakdajskdkljasjkdsakdklsakdlaskdkjlasdkjlaskljdkjlsadjklaskjldjskaldjklsakljdlsajklsasjraklljkasaltwktwttwohjtweheqtoon.
+                            <span class="card-title grey-text text-darken-4 c_N7">{{news_name7}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N7">{{news_desc7}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -331,16 +331,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N8P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N8">{{news_name8}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ<i class="material-icons right">close</i></span>
-                            <p class="card_p">Here is some more information about this product that is only revealed once clicked asdlkjsakldaskldjaskldjaskldjksajdklasjdlkasjdjlkasdkljsalkdaskldkaljsdaskljdasjkldjksakldsajkldjsadkljasdksakljdkljsakdajskdkljasjkdsakdklsakdlaskdkjlasdkjlaskljdkjlsadjklaskjldjskaldjklsakljdlsajklsasjraklljkasaltwktwttwohjtweheqtoon.
+                            <span class="card-title grey-text text-darken-4 c_N8">{{news_name8}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N8">{{news_desc8}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -356,16 +356,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N9P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N9">{{news_name9}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">{{test1}}<i class="material-icons right">close</i></span>
-                            <p class="card_p" id="c_p">{{test2}}
+                            <span class="card-title grey-text text-darken-4 c_N9">{{news_name9}}<i class="material-icons right">close</i></span>
+                            <p class="card_p" id="c_N9">{{news_desc9}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -374,16 +374,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N10P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N10">{{news_name10}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ<i class="material-icons right">close</i></span>
-                            <p class="card_p">Here is some more information about this product that is only revealed once clicked asdlkjsakldaskldjaskldjaskldjksajdklasjdlkasjdjlkasdkljsalkdaskldkaljsdaskljdasjkldjksakldsajkldjsadkljasdksakljdkljsakdajskdkljasjkdsakdklsakdlaskdkjlasdkjlaskljdkjlsadjklaskjldjskaldjklsakljdlsajklsasjraklljkasaltwktwttwohjtweheqtoon.
+                            <span class="card-title grey-text text-darken-4 c_N10">{{news_name10}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N10">{{news_name10}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -392,16 +392,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N11P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N11">{{news_name11}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ<i class="material-icons right">close</i></span>
-                            <p class="card_p">Here is some more information about this product that is only revealed once clicked asdlkjsakldaskldjaskldjaskldjksajdklasjdlkasjdjlkasdkljsalkdaskldkaljsdaskljdasjkldjksakldsajkldjsadkljasdksakljdkljsakdajskdkljasjkdsakdklsakdlaskdkjlasdkjlaskljdkjlsadjklaskjldjskaldjklsakljdlsajklsasjraklljkasaltwktwttwohjtweheqtoon.
+                            <span class="card-title grey-text text-darken-4 c_N11">{{news_name11}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N11">{{news_desc11}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -410,16 +410,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N12P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N12">{{news_name12}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ<i class="material-icons right">close</i></span>
-                            <p class="card_p">Here is some more information about this product that is only revealed once clicked asdlkjsakldaskldjaskldjaskldjksajdklasjdlkasjdjlkasdkljsalkdaskldkaljsdaskljdasjkldjksakldsajkldjsadkljasdksakljdkljsakdajskdkljasjkdsakdklsakdlaskdkjlasdkjlaskljdkjlsadjklaskjldjskaldjklsakljdlsajklsasjraklljkasaltwktwttwohjtweheqtoon.
+                            <span class="card-title grey-text text-darken-4 c_N12">{{news_name12}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N12">{{news_desc12}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -434,16 +434,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N13P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N13">{{news_name13}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ<i class="material-icons right">close</i></span>
-                            <p class="card_p">Here is some more information about this product that is only revealed once clicked asdlkjsakldaskldjaskldjaskldjksajdklasjdlkasjdjlkasdkljsalkdaskldkaljsdaskljdasjkldjksakldsajkldjsadkljasdksakljdkljsakdajskdkljasjkdsakdklsakdlaskdkjlasdkjlaskljdkjlsadjklaskjldjskaldjklsakljdlsajklsasjraklljkasaltwktwttwohjtweheqtoon.
+                            <span class="card-title grey-text text-darken-4 c_N13">{{news_name13}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N13">{{news_desc13}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -452,16 +452,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N14P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N14">{{news_name14}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ<i class="material-icons right">close</i></span>
-                            <p class="card_p">Here is some more information about this product that is only revealed once clicked asdlkjsakldaskldjaskldjaskldjksajdklasjdlkasjdjlkasdkljsalkdaskldkaljsdaskljdasjkldjksakldsajkldjsadkljasdksakljdkljsakdajskdkljasjkdsakdklsakdlaskdkjlasdkjlaskljdkjlsadjklaskjldjskaldjklsakljdlsajklsasjraklljkasaltwktwttwohjtweheqtoon.
+                            <span class="card-title grey-text text-darken-4 c_N14">{{news_name14}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N14">{{news_desc14}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -470,16 +470,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N15P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N15">{{news_name15}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ<i class="material-icons right">close</i></span>
-                            <p class="card_p">Here is some more information about this product that is only revealed once clicked asdlkjsakldaskldjaskldjaskldjksajdklasjdlkasjdjlkasdkljsalkdaskldkaljsdaskljdasjkldjksakldsajkldjsadkljasdksakljdkljsakdajskdkljasjkdsakdklsakdlaskdkjlasdkjlaskljdkjlsadjklaskjldjskaldjklsakljdlsajklsasjraklljkasaltwktwttwohjtweheqtoon.
+                            <span class="card-title grey-text text-darken-4 c_N15">{{news_name15}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N15">{{news_desc15}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -488,16 +488,16 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator" src="pictures/top.jpg">
+                            <img class="activator c_N16P1" src="">
                         </div>
                         <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Top-10 самых высокооплачиваемых профессий в РБ</span>
+                            <span class="card-title activator grey-text text-darken-4 c_N16">{{news_name16}}</span>
                             <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">{{test3}}<i class="material-icons right">close</i></span>
-                            <p class="card_p">Here is some more information about this product that is only revealed once clicked asdlkjsakldaskldjaskldjas{{test1}}asjdlkasjdjlkasdk{{test2}}daskldkaljsdaskljdasjkldjksakldsajkldjsadkljasdksakljdkljsakdajskdkljasjkdsakdklsakdlaskdkjlasdkjlaskljdkjlsadjklaskjldjskaldjklsakljdlsajklsasjraklljkasaltwktwttwohjtweheqtoon.
+                            <span class="card-title grey-text text-darken-4 c_N16">{{news_name16}}<i class="material-icons right">close</i></span>
+                            <p class="card_p c_N16">{{news_desc16}}
                                 <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
@@ -541,8 +541,8 @@
         $db = new DBExpander($link);
     
         $news = $db->Select([], "fy_news", "ORDER BY fy_news_date DESC");
-        
-        echo "<p class=\"hidden\" id=\"json\">$news</p>";
+        $news = urlencode($news);
+        echo "<pre class=\"hidden\" id=\"json\" data-json=\"{$news}\"></pre>";
         
     ?>
 
@@ -558,28 +558,56 @@
 
     <script>
         var hand = new Handel();
-        var news = JSON.parse( $( "#json" ).html() );
-        $( "#json" ).html( "" );
-        var classes = [ "c_N1", "c_N2" ];
+        var news = JSON.parse( decodeURIComponent($( "#json" ).attr("data-json")) );
+        
+        $( "#json" ).attr("data-json", "");
+        var classes = [ "c_N1", "c_N2", "c_N3", "c_N4", "c_N5" ];
         for ( let i = 0; i < news.length; i++ ) {
             hand.JSONReplacer( {
                 elems: [ {
                     classParentElem: classes[ i ],
                     data: JSON.stringify( [ {
                         elem: "news_name1",
-                        data: news[ i ].fy_news_name
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
                     }, {
                         elem: "news_desc1",
-                        data: news[ i ].fy_news_short_descr
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
                     } ] )
                 }, {
                     classParentElem: classes[ i ],
                     data: JSON.stringify( [ {
                         elem: "news_name2",
-                        data: news[ i ].fy_news_name
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
                     }, {
                         elem: "news_desc2",
-                        data: news[ i ].fy_news_short_descr
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name3",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc3",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name4",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc4",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name5",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc5",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
                     } ] )
                 } ]
             } );
@@ -590,12 +618,44 @@
             hand.PicReplacer( {
                 elems: [ {
                     elem: "src:c_N1P1",
-                    data: news[ i ].fy_news_pic
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
                 }, {
                     elem: "src:c_N2P2",
-                    data: news[ i ].fy_news_pic
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N3P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N4P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N5P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
                 } ]
-            }, i ); console.log(news[ i ].fy_news_pic);
+            }, i );
+            
+            hand.AttrReplacer({
+                elems: [{
+                    elem: "href:c_N1L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N2L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N3L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N4L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N5L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                }]
+            }, i);
         }
     </script>
 

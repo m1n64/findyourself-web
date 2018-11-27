@@ -10,6 +10,7 @@
     <link type="text/css" rel="stylesheet" href="css/style-download.css"/>
     <link type="text/css" rel="stylesheet" href="css/form-style.css"/>
     <link type="text/css" rel="stylesheet" href="css/js-errors.css"/>
+    <link rel="icon" href="images/icon-96-xhdpi.png" type="image/x-icon"/>
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>

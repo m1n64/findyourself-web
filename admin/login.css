@@ -30,3 +30,21 @@ textarea:focus {
 #fullName {
     height: 300px;
 }
+.del {
+    color: rgba(255,0,4,1.00);
+    cursor: pointer;
+}
+.del:hover{
+    color: rgba(75,124,255,1.00);
+    transition: .5s;
+}
+.del:not(:hover){
+    color: rgba(255,0,4,1.00);
+    transition: .5s;
+}
+.del:active{
+    color: rgba(0,5,255,1.00);
+}
+.date{
+    color: rgba(123,122,255,1.00);
+}

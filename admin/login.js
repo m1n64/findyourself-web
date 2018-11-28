@@ -64,6 +64,22 @@ $(document).ready(function () {
         textFormatting($(this).attr("from"), "<span style=\"color: #F00;\"></span>");
     });
     
+    $(".del").click(function(){
+        let id = $(this).attr("id_news");
+        let pic = $(this).attr("pic_src");
+        $.post(
+            location.protocol+"//"+location.host+ "/admin/ajax/delete.ajax.php",
+            {
+                id: id, 
+                pic: pic
+            },
+            (e) => {
+                M.toast({html: "Новость удалена!"});
+                setTimeout(()=>{location.reload();}, 500);
+            }
+        );
+    });
+    
     function textFormatting(elem, past){
         let text = $(elem).val();
         text += past;
@@ -138,8 +154,11 @@ $(document).ready(function () {
                 var file = $(this)[0].files[0];
                 b.val(file.name);
                 b.trigger("change");
-                fileUpload();
-                name = file.name;
+                if (file.name.search(/((\.jpg)|(\.png)|(\.bmp)|(\.jpeg))$/i) === -1) M.toast({html: "Ошибка!"});
+                else { 
+                    fileUpload();
+                    name = file.name;
+                }
             });
         });
     
@@ -151,20 +170,21 @@ $(document).ready(function () {
         
         if (nameNews.length == 0 || descNews.length == 0 || textNews.length == 0 || name.length == "")
             M.toast({html: "Пожалуйста, заполните все поля!"});
-        else {
-            alert(name);
-            $.post(
-                location.protocol+"//"+location.host+"/admin/ajax/publish.ajax.php",
-                {
-                    name: nameNews,
-                    desc: descNews,
-                    text: textNews,
-                    fileName: name
-                },
-                (e) => {
-                    
-                }
-            );
+        else {           
+                $.post(
+                    location.protocol+"//"+location.host+"/admin/ajax/publish.ajax.php",
+                    {
+                        name: nameNews,
+                        desc: descNews,
+                        text: textNews,
+                        fileName: name
+                    },
+                    (e) => {
+                        
+                        M.toast({html: "Новость добавлена!"});
+                        setTimeout(()=>{location.reload();}, 500);
+                    }
+                );
         }
     });
     

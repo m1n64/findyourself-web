@@ -11,7 +11,9 @@
 
     copy($_SERVER[ 'DOCUMENT_ROOT' ] . "/pictures/tmp/$fileName", $_SERVER[ 'DOCUMENT_ROOT' ] . "/pictures/$fileName");
     unlink($_SERVER[ 'DOCUMENT_ROOT' ] . "/pictures/tmp/$fileName");
-
+    
+    if (preg_match("/^\d+/", $fileName)) $fileName = "'".$fileName."'";
+    
     $db->Insert([
         "fy_news_name"=>$name,
         "fy_news_short_descr"=>$desc,

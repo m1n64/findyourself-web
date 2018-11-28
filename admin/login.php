@@ -24,6 +24,12 @@
 
 Ваганыч написал новую песню для своего проекта <i>"этажность"</i>, а так же клип для неё. 
 Песня имеет название <i>"intro"</i>. Это значит, что скоро выходит новый альбом. <b>Ура!</b>
+
+
+У группы Papa Roach вышли две новых песни
+
+Группа <i>Papa Roach</i> выпустила две новых песни. 
+У этих песен довольно схожие обложки, и сам эти песни сделаны в похожих стилях. Скорее всего, они собираются выпускать альбом. <i>Ждём...</i>
 -->
 <body>
     <div class="js-error">
@@ -155,7 +161,30 @@
             </div>
         </div>
     </div>
+    <?php
+        include $_SERVER[ 'DOCUMENT_ROOT' ] . "/modules/db.class.php";
+        include $_SERVER[ 'DOCUMENT_ROOT' ] . "/includes/db_connect.inc.php";
 
+        $db = new DBExpander($link);
+                  
+        $news = json_decode($db->Select(["fy_news_id", "fy_news_name", "fy_news_short_descr", "fy_news_date", "fy_news_pic"], "fy_news"));
+        for ($i = 0; $i < count($news); $i++)
+        { 
+    ?>
+    <div class="row">
+        <div class="col s12 l8 offset-l2">
+            <div class="card blue lighten-5">
+                <div class="card-content">
+                    <span class="card-title"><?php echo $news[$i]->fy_news_name; ?><a class="del right" id_news="<?php echo $news[$i]->fy_news_id; ?>" pic_src="<?php echo $news[$i]->fy_news_pic; ?>">X</a></span>
+                    <span class="date left"><?php echo $news[$i]->fy_news_date; ?></span>
+                    <p style="margin-top: 50px;"><?php echo $news[$i]->fy_news_short_descr; ?></p>
+                </div>
+            </div>
+        </div>
+    </div>    
+    <?php
+        }
+    ?>
     <?php } ?>
     <script type="text/javascript" src="libs/jq.min.js"></script>
     <script type="text/javascript" src="js/js-errors.js"></script>

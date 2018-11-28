@@ -24,18 +24,18 @@
             else
             {
                 $k = 0;
-                $rows = "( ";
+                $rows = "";
                 foreach ($tables as $tbl)
                 {
                     $rows .= "$tbl";
                     if ($k != count($tables)-1) $rows .= ", ";
                     $k++;
                 }
-                $rows .= " )";
+                $rows .= "";
             }
             
             $sql = "SELECT $rows FROM $table $add";
-            
+
             $q = mysqli_query($this->connect, $sql);
             
             if (mysqli_num_rows($q) > 0)
@@ -81,14 +81,14 @@
             else
             {
                 $k = 0;
-                $rows = "( ";
+                $rows = "";
                 foreach ($tables as $tbl)
                 {
                     $rows .= "$tbl";
                     if ($k != count($tables)-1) $rows .= ", ";
                     $k++;
                 }
-                $rows .= " )";
+                $rows .= "";
             }
             foreach ($data as $key=>$d)
             {
@@ -149,7 +149,39 @@
                 $k++;
             }
             $sql .= "INSERT INTO $table($rows) VALUES($values)";
-
+            
+            mysqli_query($this->connect, $sql);
+        }
+        
+        function Delete(array $data, string $table)
+        { 
+            $log = "";
+            $where = "";
+            switch (strtoupper($logic))
+            {
+                default:
+                case "AND":
+                    $log = "AND";
+                    break;
+                    
+                case "OR":
+                    $log = "OR";
+                    break;
+            }
+            
+            foreach ($data as $key=>$d)
+            {
+                if (preg_match("/\d+/", $d))
+                    $where .= "$key = $d $log ";
+                else
+                    $where .= "$key = '$d' $log ";
+            }
+            //$where = mb_substr($where, 0, (strlen($where)+strlen($log))-strrpos($where, $log));
+            $tmp = explode(" ", $where);
+            unset($tmp[count($tmp)-2]);
+            $where = implode(" ", $tmp);
+            $sql = "DELETE FROM $table WHERE $where";
+           
             mysqli_query($this->connect, $sql);
         }
     }

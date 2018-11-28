@@ -85,20 +85,20 @@
                 В этом приложении вы сможете просмотреть информацию о профессиях и учереждениях образования, куда можно поступать. Так же пройти тест, определяющий вашу склонность к какой-либо профессии.
             </p>
             <div class="alpha">
-                <h2 style="margin-top: 5px;">0.12.1 ALPHA</h2>
-                <p style="color:red;">Приложение находиться в Альфа версии! Много чего не реализовано!
+                <h2 style="margin-top: 5px;">1.14.1B</h2>
+                <p style="color:red;">Приложение находиться в Бета версии!
                 </p>
 
                 <ul class="browser-default list">
-                    <li>Добавлена возможность пройти тест!</li>
+                    <li>Прохождение теста и сохранение результата</li>
                     <li>Некоторые баг-фисты</li>
                     <li>Некоторые фиксы в дизайне</li>
                 </ul>
             </div>
             <div class="row">
                 <div class="down right">
-                    <p class="version">Версия 0.12ALPHA</p>
-                    <a href="files/app/0_12_1A.apk" download class="waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">file_download</i>Скачать</a>
+                    <p class="version">Версия 1.14.1B</p>
+                    <a href="files/app/1_14_1B.apk" download class="waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">file_download</i>Скачать</a>
                 </div>
             </div>
 
@@ -281,13 +281,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N5">{{news_name5}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N5L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N5">{{news_name5}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N5">{{news_desc5}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N5L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -295,17 +295,17 @@
                 <div class="col m6 s12 l3">
                     <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator c_N62" src="">
+                            <img class="activator c_N6P1" src="">
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N6">{{news_name6}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N6L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N6">{{news_name6}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N6">{{news_desc6}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N6L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -317,13 +317,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N7">{{news_name7}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N7L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N7">{{news_name7}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N7">{{news_desc7}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N7L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -335,13 +335,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N8">{{news_name8}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N8L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N8">{{news_name8}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N8">{{news_desc8}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N8L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -360,13 +360,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N9">{{news_name9}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N9L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N9">{{news_name9}}<i class="material-icons right">close</i></span>
                             <p class="card_p" id="c_N9">{{news_desc9}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N9L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -378,13 +378,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N10">{{news_name10}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N10L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N10">{{news_name10}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N10">{{news_name10}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N10L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -396,13 +396,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N11">{{news_name11}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N11L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N11">{{news_name11}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N11">{{news_desc11}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N11L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -414,13 +414,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N12">{{news_name12}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N12L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N12">{{news_name12}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N12">{{news_desc12}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N12L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -438,13 +438,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N13">{{news_name13}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N13L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N13">{{news_name13}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N13">{{news_desc13}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N13L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -456,13 +456,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N14">{{news_name14}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N14L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N14">{{news_name14}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N14">{{news_desc14}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N14L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -474,13 +474,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N15">{{news_name15}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N15L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N15">{{news_name15}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N15">{{news_desc15}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N15L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -492,13 +492,13 @@
                         </div>
                         <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4 c_N16">{{news_name16}}</span>
-                            <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                            <p><a href="#" class="c_N16L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                             </p>
                         </div>
                         <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4 c_N16">{{news_name16}}<i class="material-icons right">close</i></span>
                             <p class="card_p c_N16">{{news_desc16}}
-                                <p><a href="#">Перейти к статье<i class="material-icons right">more_vert</i></a>
+                                <p><a href="#" class="c_N16L1">Перейти к статье<i class="material-icons right">more_vert</i></a>
                                 </p>
                         </div>
                     </div>
@@ -561,7 +561,7 @@
         var news = JSON.parse( decodeURIComponent($( "#json" ).attr("data-json")) );
         
         $( "#json" ).attr("data-json", "");
-        var classes = [ "c_N1", "c_N2", "c_N3", "c_N4", "c_N5" ];
+        var classes = [ "c_N1", "c_N2", "c_N3", "c_N4", "c_N5", "c_N6", "c_N7", "c_N8", "c_N9", "c_N10", "c_N11", "c_N12", "c_N13", "c_N14", "c_N15", "c_N16" ];
         for ( let i = 0; i < news.length; i++ ) {
             hand.JSONReplacer( {
                 elems: [ {
@@ -609,11 +609,111 @@
                         elem: "news_desc5",
                         data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
                     } ] )
-                } ]
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name6",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc6",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name7",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc7",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }//, {
+//                    classParentElem: classes[ i ],
+//                    data: JSON.stringify( [ {
+//                        elem: "news_name8",
+//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+//                    }, {
+//                        elem: "news_desc8",
+//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+//                    } ] )
+//                }, {
+//                    classParentElem: classes[ i ],
+//                    data: JSON.stringify( [ {
+//                        elem: "news_name9",
+//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+//                    }, {
+//                        elem: "news_desc9",
+//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+//                    } ] )
+//                }, {
+//                    classParentElem: classes[ i ],
+//                    data: JSON.stringify( [ {
+//                        elem: "news_name10",
+//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+//                    }, {
+//                        elem: "news_desc10",
+//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+//                    } ] )
+//                }, {
+//                    classParentElem: classes[ i ],
+//                    data: JSON.stringify( [ {
+//                        elem: "news_name11",
+//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+//                    }, {
+//                        elem: "news_desc11",
+//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+//                    } ] )
+//                }, {
+//                    classParentElem: classes[ i ],
+//                    data: JSON.stringify( [ {
+//                        elem: "news_name12",
+//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+//                    }, {
+//                        elem: "news_desc12",
+//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+//                    } ] )
+//                }, {
+//                    classParentElem: classes[ i ],
+//                    data: JSON.stringify( [ {
+//                        elem: "news_name13",
+//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+//                    }, {
+//                        elem: "news_desc13",
+//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+//                    } ] )
+//                }, {
+//                    classParentElem: classes[ i ],
+//                    data: JSON.stringify( [ {
+//                        elem: "news_name14",
+//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+//                    }, {
+//                        elem: "news_desc14",
+//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+//                    } ] )
+//                }, {
+//                    classParentElem: classes[ i ],
+//                    data: JSON.stringify( [ {
+//                        elem: "news_name15",
+//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+//                    }, {
+//                        elem: "news_desc15",
+//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+//                    } ] )
+//                }, {
+//                    classParentElem: classes[ i ],
+//                    data: JSON.stringify( [ {
+//                        elem: "news_name16",
+//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+//                    }, {
+//                        elem: "news_desc16",
+//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+//                    } ] )
+//                } ]
+                ]
             } );
-            console.log( i );
+            
         }
-        console.log(news);
+        
         for (let i = 0; i < news.length; i++){
             hand.PicReplacer( {
                 elems: [ {
@@ -631,7 +731,41 @@
                 }, {
                     elem: "src:c_N5P1",
                     data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                } ]
+                }, {
+                    elem: "src:c_N6P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N7P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }//, {
+//                    elem: "src:c_N8P1",
+//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+//                }, {
+//                    elem: "src:c_N9P1",
+//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+//                }, {
+//                    elem: "src:c_N10P1",
+//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+//                }, {
+//                    elem: "src:c_N11P1",
+//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+//                }, {
+//                    elem: "src:c_N12P1",
+//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+//                }, {
+//                    elem: "src:c_N13P1",
+//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+//                }, {
+//                    elem: "src:c_N14P1",
+//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+//                }, {
+//                    elem: "src:c_N15P1",
+//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+//                }, {
+//                    elem: "src:c_N16P1",
+//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+//                } ]
+                ]
             }, i );
             
             hand.AttrReplacer({
@@ -653,6 +787,14 @@
                 },
                 {
                     elem: "href:c_N5L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N6L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N7L1",
                     data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
                 }]
             }, i);

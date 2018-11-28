@@ -61,22 +61,22 @@
             <p class="grey-text text-darken-3 lighten-3">В этом приложении Вы можете просмотреть информацию о профессиях и учереждениях образования, куда можно постпуать. Так же пройти тест, определяющий вашу склонность к какой-либо профессии.</p>
             <div class="changelog">
                 <span class="version">
-                    0.12.1ALPHA
+                    1.14.1B
                 </span>
             
                 <span class="fix-version">
-                    <span class="is-alpha">Приложение находиться в Альфа-версии! Много чего не реализовано!</span>
+                    <span class="is-alpha">Приложение находиться в Бета-версии!</span>
             
                 <ul class="browser-default">
-                    <li>Добавлена возможность пройти тест!</li>
+                    <li>Прохождение теста и сохранение результата</li>
                     <li>Некоторые баг-фиксы</li>
                     <li>Некоторые фиксы в дизайне</li>
                 </ul>
                 </span>
             </div>
             <div class="download-button right">
-                <span class="version">Версия 0.12.1ALPFA</span>
-                <a href="files/app/0_12_1A.apk" download class="btn waves-effect waves-light blue lighten-1"><i class="material-icons left">file_download</i>Скачать</a>
+                <span class="version">Версия 1.14.1B</span>
+                <a href="files/app/1_14_1B.apk" download class="btn waves-effect waves-light blue lighten-1"><i class="material-icons left">file_download</i>Скачать</a>
             </div>
         </div>
     </div>

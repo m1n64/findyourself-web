@@ -7,6 +7,7 @@ $(document).ready(function () {
     /*Дропдаун менюшки*/
     $('.dropdown-trigger').dropdown();
     
+    
     $("#subm").click(function(){
         let login = $("#login").val();
         let pass = $("#pass").val();
@@ -25,6 +26,19 @@ $(document).ready(function () {
                 }
             }
         );
+    });
+    
+    $("l").click(function(){
+        let reg = new RegExp(/(\w{4,5}:\/\/(www.)?\w+.\w{2,4})/); //(\w{3}.\w+.\w{2,4})|
+        location.assign($(this).html().match(reg)[0]); 
+    });
+    
+    $(".link").click(function(){
+        textFormatting($(this).attr("from"), "<l></l>");
+    });
+    
+    $(".blockquote").click(function(){
+        textFormatting($(this).attr("from"), "<blockquote></blockquote>");
     });
     
     $(".exit").click(function(){
@@ -57,11 +71,11 @@ $(document).ready(function () {
     });
     
     $(".under").click(function(){
-        textFormatting($(this).attr("from"), "<span style=\"text-decoration: underline;\"></span>");
+        textFormatting($(this).attr("from"), "<u></u>");
     });
     
     $(".redFormat").click(function(){
-        textFormatting($(this).attr("from"), "<span style=\"color: #F00;\"></span>");
+        textFormatting($(this).attr("from"), "<r></r>");
     });
     
     $(".del").click(function(){
@@ -74,6 +88,7 @@ $(document).ready(function () {
                 pic: pic
             },
             (e) => {
+                
                 M.toast({html: "Новость удалена!"});
                 setTimeout(()=>{location.reload();}, 500);
             }
@@ -180,7 +195,7 @@ $(document).ready(function () {
                         fileName: name
                     },
                     (e) => {
-                        
+                       
                         M.toast({html: "Новость добавлена!"});
                         setTimeout(()=>{location.reload();}, 500);
                     }

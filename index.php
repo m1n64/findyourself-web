@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 
 <head>
@@ -85,20 +85,20 @@
                 В этом приложении вы сможете просмотреть информацию о профессиях и учереждениях образования, куда можно поступать. Так же пройти тест, определяющий вашу склонность к какой-либо профессии.
             </p>
             <div class="alpha">
-                <h2 style="margin-top: 5px;">1.14.1B</h2>
+                <h2 style="margin-top: 5px;">2.15.1B</h2>
                 <p style="color:red;">Приложение находиться в Бета версии!
                 </p>
 
                 <ul class="browser-default list">
                     <li>Прохождение теста и сохранение результата</li>
                     <li>Некоторые баг-фисты</li>
-                    <li>Некоторые фиксы в дизайне</li>
+                    <li>Редизайн</li>
                 </ul>
             </div>
             <div class="row">
                 <div class="down right">
-                    <p class="version">Версия 1.14.1B</p>
-                    <a href="files/app/1_14_1B.apk" download class="waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">file_download</i>Скачать</a>
+                    <p class="version">Версия 2.15.1B</p>
+                    <a href="files/app/2_15_1B.apk" download class="waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">file_download</i>Скачать</a>
                 </div>
             </div>
 
@@ -627,89 +627,89 @@
                         elem: "news_desc7",
                         data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
                     } ] )
-                }//, {
-//                    classParentElem: classes[ i ],
-//                    data: JSON.stringify( [ {
-//                        elem: "news_name8",
-//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-//                    }, {
-//                        elem: "news_desc8",
-//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-//                    } ] )
-//                }, {
-//                    classParentElem: classes[ i ],
-//                    data: JSON.stringify( [ {
-//                        elem: "news_name9",
-//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-//                    }, {
-//                        elem: "news_desc9",
-//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-//                    } ] )
-//                }, {
-//                    classParentElem: classes[ i ],
-//                    data: JSON.stringify( [ {
-//                        elem: "news_name10",
-//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-//                    }, {
-//                        elem: "news_desc10",
-//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-//                    } ] )
-//                }, {
-//                    classParentElem: classes[ i ],
-//                    data: JSON.stringify( [ {
-//                        elem: "news_name11",
-//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-//                    }, {
-//                        elem: "news_desc11",
-//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-//                    } ] )
-//                }, {
-//                    classParentElem: classes[ i ],
-//                    data: JSON.stringify( [ {
-//                        elem: "news_name12",
-//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-//                    }, {
-//                        elem: "news_desc12",
-//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-//                    } ] )
-//                }, {
-//                    classParentElem: classes[ i ],
-//                    data: JSON.stringify( [ {
-//                        elem: "news_name13",
-//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-//                    }, {
-//                        elem: "news_desc13",
-//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-//                    } ] )
-//                }, {
-//                    classParentElem: classes[ i ],
-//                    data: JSON.stringify( [ {
-//                        elem: "news_name14",
-//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-//                    }, {
-//                        elem: "news_desc14",
-//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-//                    } ] )
-//                }, {
-//                    classParentElem: classes[ i ],
-//                    data: JSON.stringify( [ {
-//                        elem: "news_name15",
-//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-//                    }, {
-//                        elem: "news_desc15",
-//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-//                    } ] )
-//                }, {
-//                    classParentElem: classes[ i ],
-//                    data: JSON.stringify( [ {
-//                        elem: "news_name16",
-//                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-//                    }, {
-//                        elem: "news_desc16",
-//                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-//                    } ] )
-//                } ]
-                ]
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name8",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc8",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name9",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc9",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name10",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc10",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name11",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc11",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name12",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc12",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name13",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc13",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name14",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc14",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name15",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc15",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                }, {
+                    classParentElem: classes[ i ],
+                    data: JSON.stringify( [ {
+                        elem: "news_name16",
+                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                    }, {
+                        elem: "news_desc16",
+                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
+                    } ] )
+                } ]
+                //]
             } );
             
         }
@@ -737,35 +737,35 @@
                 }, {
                     elem: "src:c_N7P1",
                     data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }//, {
-//                    elem: "src:c_N8P1",
-//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-//                }, {
-//                    elem: "src:c_N9P1",
-//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-//                }, {
-//                    elem: "src:c_N10P1",
-//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-//                }, {
-//                    elem: "src:c_N11P1",
-//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-//                }, {
-//                    elem: "src:c_N12P1",
-//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-//                }, {
-//                    elem: "src:c_N13P1",
-//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-//                }, {
-//                    elem: "src:c_N14P1",
-//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-//                }, {
-//                    elem: "src:c_N15P1",
-//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-//                }, {
-//                    elem: "src:c_N16P1",
-//                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-//                } ]
-                ]
+                }, {
+                    elem: "src:c_N8P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N9P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N10P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N11P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N12P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N13P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N14P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N15P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                }, {
+                    elem: "src:c_N16P1",
+                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
+                } ]
+                // ]
             }, i );
             
             hand.AttrReplacer({
@@ -795,6 +795,42 @@
                 },
                 {
                     elem: "href:c_N7L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N8L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N9L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N10L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N11L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N12L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N13L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N14L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N15L1",
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                },
+                {
+                    elem: "href:c_N16L1",
                     data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
                 }]
             }, i);

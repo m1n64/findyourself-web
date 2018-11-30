@@ -5,6 +5,22 @@
     background-color: rgba(223,223,223,1.00);
 }
 */
+
+u {
+    text-decoration: underline;
+}
+r {
+    color: red;
+}
+l {
+    color: rgba(25,208,255,1.00);
+    text-decoration: underline;
+    cursor: pointer;
+}
+l:hover {
+    color: rgba(255,49,53,1.00);
+}
+
 textarea {
     -webkit-appearance: textarea;
     background-color: white;

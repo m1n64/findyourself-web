@@ -122,6 +122,8 @@
                                     <button type="button" from="#fullName" class="waves-effect waves-blue btn-flat strong"><s>S</s></button>
                                     <button type="button" from="#fullName" class="waves-effect waves-blue btn-flat under"><p style="text-decoration: underline;">U</p></button>
                                     <button type="button" from="#fullName" class="waves-effect waves-blue btn-flat redFormat"><p style="color: rgba(255,0,4,1.00)">R</p></button>
+                                    <button type="button" from="#fullName" class="waves-effect waves-blue btn-flat link">LINK</button>
+                                    <button type="button" from="#fullName" class="waves-effect waves-blue btn-flat blockquote">blockquote</button>
                                 </span>
                                 <textarea id="fullName" class="browser-default"></textarea>
                                 

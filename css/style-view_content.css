@@ -1,0 +1,73 @@
+.h_content
+{
+    font-size: 30px;
+    word-wrap: break-word;
+    font-weight: 600;
+    
+}
+/*Редактирую кол-во просмотров, дату и время публикации*/
+#count
+{
+    margin-top: 0;
+
+}
+.date_news
+{
+    margin-left: 18px;
+    font-size: 15px;
+    display: flex;
+    margin-top: 15px;
+}
+.d_icon
+{
+   font-size: 22px;
+}
+.date_cont
+{
+    margin-right: 50px;    
+}
+/*текст и заголовок статьи*/
+.h_news
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.comments {
+    background-color: rgba(193,217,255,1.00);
+    padding: 1%;
+}
+.comments > .col > div > span {
+    color: #262626;
+}
+input.browser-default, textarea.browser-default {
+    text-rendering: auto;
+    background-color: #FFF;
+    border: rgba(159,159,159,1.00) solid 1px;
+    border-radius: 7px;
+    resize: none;
+}
+input.browser-default:focus, textarea.browser-default:focus {
+    border: rgba(132,184,255,1.00) solid 1px;
+    background-color: rgba(231,231,231,1.00);
+    transition: 0.3s;
+}
+input.browser-default:not(:focus), textarea.browser-default:not(:focus){
+    background-color: rgba(255,255,255,1.00);
+    transition: 0.3s;
+}
+
+
+u {
+    text-decoration: underline;
+}
+r {
+    color: red;
+}
+l {
+    color: rgba(25,208,255,1.00);
+    text-decoration: underline;
+    cursor: pointer;
+}
+l:hover {
+    color: rgba(255,49,53,1.00);
+}

@@ -1,0 +1,624 @@
+
+#####
+[2018-12-03 00:55:12]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 00:55:15]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 00:59:14]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:00:16]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:09:16]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:09:30]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:10:28]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:11:07]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:11:24]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:12:04]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:12:38]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:12:56]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:15:41]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:16:49]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:16:59]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:17:34]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:18:56]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:19:56]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:20:10]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:20:32]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:21:06]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:21:16]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:21:33]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:21:37]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:22:12]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:22:23]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:22:55]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:23:15]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:24:25]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:24:40]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:24:54]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:25:22]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:25:49]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:26:13]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:26:14]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:26:26]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:26:42]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:26:47]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:26:55]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:28:21]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:29:00]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:29:07]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:29:17]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:29:52]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:32:31]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:32:43]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:33:34]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:33:53]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:34:44]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:35:37]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:35:39]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:36:38]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:36:39]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:37:06]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:37:19]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:37:26]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:37:37]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:37:51]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:38:03]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:38:29]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:38:33]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:38:39]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:38:43]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:38:58]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:39:01]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:39:09]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:39:13]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:39:23]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:39:26]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:40:30]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:40:36]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:40:46]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:40:48]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/news/19/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 01:40:53]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 16:47:35]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/news/20/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 17:28:56]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 17:29:38]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/news/19/::load-page
+IP: 127.0.0.1
+
+#####
+[2018-12-03 23:43:10]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"70.0.3538","majorVersion":70,"minorVersion":0,"patchVersion":3538,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/news/19/::load-page
+IP: 127.0.0.1

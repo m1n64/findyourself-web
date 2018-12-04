@@ -10,6 +10,22 @@ function Resize() {
     });
 }
 
+function RusToEngURL(url){
+    var lr = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
+    var lru = "АБВГДЕЁЖЗИКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+    var tr = ["a", "b", "v", "g", "d", "e", "e", "dzj", "z", "i", "i",
+        "k", "l", "m", "n", "o", "p", "r", "s", "t", "u", "f", "h", "c",
+        "ch", "sh", "sch", "", "i", "", "e", "y", "ya"];
+    var tru = ["A","B","V","G","D","E","E","DZJ","Z","I","I","K","L","M","N","O","P","R","S","T","U","F","H","C","CH","SH","SCH","","I","","E","Y","YA"]
+    
+    var newurl = "";
+    
+    newurl = url.replace(/[А-Яа-я]/g, function(str, offset){
+        return tr[lr.indexOf(str)] || tru[lru.indexOf(str)];
+    }); 
+    return newurl;
+}
+
 function isValidEmailAddress(emailAddress) {
     var pattern = new RegExp(/^(("[\w-\s]+")|([\w-]+(?:\.[\w-]+)*)|("[\w-\s]+")([\w-]+(?:\.[\w-]+)*))(@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$)|(@\[?((25[0-5]\.|2[0-4][0-9]\.|1[0-9]{2}\.|[0-9]{1,2}\.))((25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\.){2}(25[0-5]|2[0-4][0-9]|1[0-9]{2}|[0-9]{1,2})\]?$)/i);
     return pattern.test(emailAddress);

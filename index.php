@@ -181,9 +181,9 @@
     <div class="row" style="margin-top:20px;">
         <div class="col s12">
             <ul class="tabs">
-                <li class="tab col s3"><a href="#test1"><i class="material-icons">brightness_1</i></a>
+                <li class="tab col s3"><a class="active" href="#test1"><i class="material-icons">brightness_1</i></a>
                 </li>
-                <li class="tab col s3"><a class="active" href="#test2"><i class="material-icons">brightness_1</i></a>
+                <li class="tab col s3"><a href="#test2"><i class="material-icons">brightness_1</i></a>
                 </li>
                 <li class="tab col s3"><a href="#test3"><i class="material-icons">brightness_1</i></a>
                 </li>
@@ -559,7 +559,6 @@
     <script>
         var hand = new Handel();
         var news = JSON.parse( decodeURIComponent($( "#json" ).attr("data-json")) );
-        
         $( "#json" ).attr("data-json", "");
         var classes = [ "c_N1", "c_N2", "c_N3", "c_N4", "c_N5", "c_N6", "c_N7", "c_N8", "c_N9", "c_N10", "c_N11", "c_N12", "c_N13", "c_N14", "c_N15", "c_N16" ];
         for ( let i = 0; i < news.length; i++ ) {
@@ -771,67 +770,67 @@
             hand.AttrReplacer({
                 elems: [{
                     elem: "href:c_N1L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N2L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N3L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N4L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N5L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N6L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N7L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N8L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N9L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N10L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N11L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N12L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N13L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N14L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N15L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N16L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
                 }]
             }, i);
         }

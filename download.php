@@ -96,23 +96,25 @@
             <p class="grey-text text-darken-3 lighten-3">Если вы постоянно забываете где-то свои пароли, то это приложение для Вас! Это приложение является записной книжкой, куда вы будете записывать свои пароли. Только эта записная книжка будет их ещё и шифровать. Да и сама она защищена PIN-кодом.</p>
             <div class="changelog-green">
                 <span class="version">
-                    1.10.1
+                    2.13.5
                 </span>
             
                 <span class="fix-version">
-<!--                    <span class="is-alpha">Приложение находиться в Бета-версии!</span>-->
+                    <span class="is-alpha">Приложение находиться в Бета-версии!</span>
             
                 <ul class="browser-default">
                     <li>Сохранение результата в Базе Данных</li>
                     <li>Защита PIN кодом</li>
-                    <li>Шифрование паролей методом DES CBC</li>
+                    <li>Шифрование паролей другим алгоритмом</li>
                     <li>Возможность добавлять пароли в избранное</li>
+                    <li>Тёмная тема</li>
+                    <li>Баг-фиксы</li>
                 </ul>
                 </span>
             </div>
             <div class="download-button right">
-                <span class="version">Версия 1.10.1</span>
-                <a href="files/passwordsaver/1_10_1A.apk" download class="btn waves-effect waves-light green accent-4"><i class="material-icons left">file_download</i>Скачать</a>
+                <span class="version">Версия 2.13.5</span>
+                <a href="files/passwordsaver/2_13_5.apk" download class="btn waves-effect waves-light green accent-4"><i class="material-icons left">file_download</i>Скачать</a>
             </div>
         </div>
     </div>

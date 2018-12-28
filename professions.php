@@ -17,6 +17,12 @@
 
     <title>Новости</title>
 
+    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
+    <script>
+        if (Sniff.browser.fullName == "Internet Explorer") {
+            location.assign(location.protocol+"//"+location.host+"/errors/BadBrowser.html");
+        }
+    </script>
 </head>
 
 <body>
@@ -58,7 +64,6 @@
     include $_SERVER[ 'DOCUMENT_ROOT' ] . "/includes/db_connect.inc.php";
     
     $db = new DBExpander($link);
-
     ?>
 
     <!--JavaScript at end of body for optimized loading-->
@@ -69,7 +74,6 @@
     <script type="text/javascript" src="libs/base64.js"></script>
     <script type="text/javascript" src="libs/material/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/logsave.js"></script>
-    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
 
     <script>
         //do not watch than!

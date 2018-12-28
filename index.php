@@ -13,6 +13,14 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <title>FindYourself</title>
+    
+    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
+    <script>
+        if (Sniff.browser.fullName == "Internet Explorer") {
+            location.assign(location.protocol+"//"+location.host+"/errors/BadBrowser.html");
+        }
+    </script>
 </head>
 
 <body>
@@ -29,10 +37,10 @@
     <div class="carousel carousel-slider center" style="height: 91vh;">
         <div class="carousel-fixed-item center">
         </div>
-        <div class="carousel-item first-item white-text" href="#one!">
+        <div class="carousel-item first-item blue-grey-text lighten-5" href="#one!">
             <div class="txt">
-                <h2>«Когда-нибудь потом»</h2>
-                <p class="white-text"> – опаснейшая болезнь, которая рано или поздно похоронит ваши мечты.</p>
+                <h2>Кто все эти люди что б учить меня жить?<br />Пускай они отвалят, я решу всё сам!<br />И никакого дела до моей судьбы<br />Все эти грёбаные люди просто пыль в глаза!</h2>
+                <p class="black-text">Владислав Котляров, гр. "Порнофильмы"</p>
             </div>
         </div>
         <div class="carousel-item second-item white-text" href="#two!">
@@ -85,20 +93,20 @@
                 В этом приложении вы сможете просмотреть информацию о профессиях и учереждениях образования, куда можно поступать. Так же пройти тест, определяющий вашу склонность к какой-либо профессии.
             </p>
             <div class="alpha">
-                <h2 style="margin-top: 5px;">2.15.1B</h2>
+                <h2 style="margin-top: 5px;">2.25.6B</h2>
                 <p style="color:red;">Приложение находиться в Бета версии!
                 </p>
 
                 <ul class="browser-default list">
                     <li>Прохождение теста и сохранение результата</li>
-                    <li>Некоторые баг-фисты</li>
-                    <li>Редизайн</li>
+                    <li>Некоторые баг-фиксы</li>
+                    <li>Ещё баг-фиксы!</li>
                 </ul>
             </div>
             <div class="row">
                 <div class="down right">
-                    <p class="version">Версия 2.15.1B</p>
-                    <a href="files/app/2_15_1B.apk" download class="waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">file_download</i>Скачать</a>
+                    <p class="version">Версия 2.25.6B</p>
+                    <a href="files/app/2_25_6B.apk" download class="waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">file_download</i>Скачать</a>
                 </div>
             </div>
 
@@ -553,7 +561,6 @@
     <script type="text/javascript" src="libs/base64.js"></script>
     <script type="text/javascript" src="libs/material/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/logsave.js"></script>
-    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
     <script type="text/javascript" src="libs/handeles.js"></script>
 
     <script>

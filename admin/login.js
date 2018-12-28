@@ -12,6 +12,11 @@ $(document).ready(function () {
         let login = $("#login").val();
         let pass = $("#pass").val();
         
+        login = login.replace(/'/g, "");
+        login = login.replace(/-/g, "");
+        
+        pass = pass.replace(/'/g, "");
+        pass = pass.replace(/-/g, "");
         $.post(
             location.protocol+"//"+location.host+ "/admin/ajax/login.ajax.php",
             {
@@ -47,14 +52,23 @@ $(document).ready(function () {
     });
     
     $("#name").keyup(function(e){
+        let text = $(this).val();
+        let rgx = /<script>|<\/script>/gi;
+        $(this).val(text.replace(rgx, ""));
         $("#name_news").html($(this).val());    
     });
     
     $("#desc").keyup(function(e){
+        let text = $(this).val();
+        let rgx = /<script>|<\/script>/gi;
+        $(this).val(text.replace(rgx, ""));
         $("#desc_news").html($(this).val()); 
     });
     
     $("#fullName").keyup(function(e){
+        let text = $(this).val();
+        let rgx = /<script>|<\/script>/gi;
+        $(this).val(text.replace(rgx, ""));
         $("#text-news").html($(this).val());
     });
     

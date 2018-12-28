@@ -18,6 +18,12 @@
 
     <title>"Найди себя" | Админка</title>
 
+    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
+    <script>
+        if (Sniff.browser.fullName == "Internet Explorer") {
+            location.assign(location.protocol+"//"+location.host+"/errors/BadBrowser.html");
+        }
+    </script>
 </head>
 <!--
 Новая песня группы "Этажность"
@@ -195,7 +201,6 @@
     <script type="text/javascript" src="libs/base64.js"></script>
     <script type="text/javascript" src="libs/material/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/logsave.js"></script>
-    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
 
     <script>
         //do not watch than!

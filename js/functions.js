@@ -61,3 +61,13 @@ function getCookie(cookieName) {
 function deleteCookie(name, path) {
  setCookie(name, path, "", -1);
 }
+
+function getCoords(elem) { // кроме IE8-
+  var box = elem.getBoundingClientRect();
+
+  return {
+    top: box.top + pageYOffset,
+    left: box.left + pageXOffset
+  };
+
+}

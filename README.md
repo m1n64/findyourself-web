@@ -14,6 +14,9 @@ Admin Panel:
 >> login: fy_admin
 >> pass: fy_admin1567
 
+
+** [CHANGELOG](https://github.com/m1n64/findyourself-web/blob/v3_1/changelog.md "changelog") **
+
 ````
 project/ #главная папка сайта
 ├───admin/ #админка

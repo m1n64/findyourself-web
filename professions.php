@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <base href="http://<?php echo $_SERVER[ 'SERVER_NAME' ];?>/"/>
+    <base href="<?php echo $_SERVER['REQUEST_SCHEME'] . '://' .$_SERVER['SERVER_NAME'].'/';  ?>">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->

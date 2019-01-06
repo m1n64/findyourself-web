@@ -1,8 +1,6 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <base href="http://<?php echo $_SERVER[ 'SERVER_NAME'];?>/"/>
+<html><head>
+    <base href="<?php echo $_SERVER['REQUEST_SCHEME'] . '://' .$_SERVER['SERVER_NAME'].'/';  ?>">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -10,7 +8,7 @@
     <link type="text/css" rel="stylesheet" href="admin/login.css"/>
     <link type="text/css" rel="stylesheet" href="css/form-style.css"/>
     <link type="text/css" rel="stylesheet" href="css/js-errors.css"/>
-    
+    <link type="text/css" rel="stylesheet" href="libs/emoji/emoji.css"/>
     <link rel="icon" href="images/icon-96-xhdpi.png" type="image/x-icon"/>
 
     <!--Let browser know website is optimized for mobile-->
@@ -187,6 +185,35 @@
                     <span class="date left"><?php echo $news[$i]->fy_news_date; ?></span>
                     <p style="margin-top: 50px;"><?php echo $news[$i]->fy_news_short_descr; ?></p>
                 </div>
+                <div class="comments">
+                <?php
+                    $comments = json_decode($db->SelectWhere( [], [
+                            "fy_comm_news_id"=>$news[$i]->fy_news_id
+                        ], "fy_news_comments"));
+                    for($j = 0; $j < count($comments); $j++) {
+                ?>
+                <!--
+                    кофе - мой друг
+                    музыка - мой драг
+                    и всё, что вокруг
+                    я могу сыграть
+                    дорога - мой дом
+                    небо - моя тетрадь
+                    пока мы в двоём -
+                    мы точно не будем спать...
+                    
+                        Катя <3 <3
+                -->
+                    
+                    <div class="comment">
+                        <span><?php echo $comments[$j]->fy_comm_email." ";echo $comments[$j]->fy_comm_date." "; ?><?php echo $comments[$j]->fy_comm_ip; ?><a class="delComment right" id_comment="<?php echo $comments[$j]->fy_comm_id; ?>">X</a></span>
+                        <div class="name-commentator"><b><?php echo $comments[$j]->fy_comm_name; ?></b></div>
+                        <div class="text-сomment">
+                            <?php echo $comments[$j]->fy_comm_text; ?>
+                        </div>
+                    </div>
+                <?php } ?>
+                </div>
             </div>
         </div>
     </div>    
@@ -198,6 +225,8 @@
     <script type="text/javascript" src="js/js-errors.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
     <script type="text/javascript" src="admin/login.js"></script>
+    <script type="text/javascript" src="libs/emoji/emoji.js"></script>
+    <script type="text/javascript" src="libs/emoji/jquery.emoji.js"></script>
     <script type="text/javascript" src="libs/base64.js"></script>
     <script type="text/javascript" src="libs/material/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/logsave.js"></script>

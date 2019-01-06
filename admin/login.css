@@ -64,3 +64,26 @@ textarea:focus {
 .date{
     color: rgba(123,122,255,1.00);
 }
+
+.comments {
+    padding: 25px;
+    background-color: rgba(234,255,253,1.00);
+}
+.comment {
+    border: rgba(167,185,255,1.00) solid 1px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.70);
+}
+.comment > span {
+    color: rgba(71,71,71,1.00);
+}
+.name-commentator {
+    color: rgba(25,25,25,1.00);
+}
+.text-comment {
+    /*  FLY TO STAY ALIVE BABY FLYYYYYY   */
+}
+.delComment {
+    color: rgba(255,0,4,1.00);
+    cursor: pointer;
+}

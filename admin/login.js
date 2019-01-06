@@ -7,6 +7,7 @@ $(document).ready(function () {
     /*Дропдаун менюшки*/
     $('.dropdown-trigger').dropdown();
     
+    $(".text-сomment").emoji($(".text-сomment").html());
     
     $("#subm").click(function(){
         let login = $("#login").val();
@@ -104,6 +105,20 @@ $(document).ready(function () {
             (e) => {
                 
                 M.toast({html: "Новость удалена!"});
+                setTimeout(()=>{location.reload();}, 500);
+            }
+        );
+    });
+    
+    $(".delComment").click(function(){
+        let id = $(this).attr("id_comment"); 
+        $.post(
+            location.protocol+"//"+location.host+"/admin/ajax/deletecomment.ajax.php",
+            {
+                id: id
+            }, 
+            (e) => {
+                M.toast({html: "Комментарий удалён!"});
                 setTimeout(()=>{location.reload();}, 500);
             }
         );

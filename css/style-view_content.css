@@ -56,6 +56,14 @@ input.browser-default:not(:focus), textarea.browser-default:not(:focus){
     transition: 0.3s;
 }
 
+.emoji-list {
+    background-color: rgba(220,236,255,1.00);
+    padding: 10px;
+    border: rgba(110,167,255,1.00) solid 1px;
+}
+.emoji_add {
+    cursor: pointer;
+}
 
 u {
     text-decoration: underline;

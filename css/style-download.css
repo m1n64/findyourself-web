@@ -13,3 +13,6 @@
 .footer-attention {
     font-size: 11px;
 }
+.nav-fixed { margin-top: 0%; position: fixed; z-index: 10; }
+.changelog-green { border: #ADFF9C solid 1px; border-radius: 20px; padding: 10px; }
+.nav-wrapper { background-color: #42a5f5; }

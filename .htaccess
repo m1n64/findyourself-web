@@ -3,7 +3,7 @@ Options All -Indexes
  Order Allow,Deny
  Deny from all
 </FilesMatch>
- 
+
 RewriteEngine On
 Options +FollowSymlinks
 RewriteCond   %{REQUEST_FILENAME} !-d
@@ -11,8 +11,8 @@ RewriteCond   %{REQUEST_FILENAME} !-f
 
 RewriteRule ^test/$ test.php [QSA,L]
 RewriteRule ^download-app/$ download.php [QSA,L]
-RewriteRule ^professions/$ professions.php [QSA,L]
-RewriteRule ^news/([0-9]+)/$ view_content.php?id=$1 [L]
+RewriteRule ^professions/([a-z]*)?/?([0-9]*)?$ professions.php?act=$1&id=$2 [L]
+RewriteRule ^news/([0-9]+)/([A-Za-z0-9\+-_]+)/$ view_content.php?id=$1&name=$2 [L]
 RewriteRule ^admin/$ admin/login.php [QSA]
 
 ErrorDocument 403 /errors/403.html

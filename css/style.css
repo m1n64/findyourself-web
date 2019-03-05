@@ -47,23 +47,27 @@ blockquote::selection {
 h {
     display: block;
 }
+.logo-img
+{
+height: 100%;
+}
 /*Бэкграунд на слайдах*/
 .first-item {
-    background: url(/images/kaska.jpg) no-repeat center center fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-}
-.second-item {
     background: url(/images/kruzhka.png) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
-.thrid-item {
+.second-item {
     background: url(/images/mak.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.thrid-item {
+    background: url(/images/kaska.jpg) no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -129,7 +133,7 @@ ul>li {
         margin-left: 0;
         margin-right: 0;
     }
-}    
+}
 @media (min-width: 900px){
     .par_text{
         margin-left: 25%;
@@ -145,7 +149,7 @@ ul>li {
 .card .card-content .card-title {
     margin-bottom: 20px;
     display: block;
-    line-height: 25px;    
+    line-height: 25px;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;

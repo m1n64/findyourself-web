@@ -18,6 +18,43 @@ class FileApi
         $t = file_get_contents($file);
         return strlen($t) > 0 ? $t : false;
     }
+    
+    public static function GetFilesFromDir( $dir )
+    { 	
+        $filenames = array(); 	
+        $dir = rtrim( $dir, '/' ); // удалим слэш на конце 
+        if( is_dir($dir) )
+        { 		
+            if( $handle = opendir($dir) )
+            { 			
+                chdir( $dir ); 			
+                while( false !== ($file = readdir($handle)) )
+                { 				
+                    if( $file != "." && $file != '..' )
+                    { 					
+                        if( is_dir($file) )
+                        { 						
+                            $arr = FileApi::GetFilesFromDir( $file ); 						
+                            foreach( $arr as $value ) 
+                                $filenames[] = $dir .'/'. $value; 					
+                        } 					
+                        else 
+                        {
+                            $filenames[] = $dir .'/'. $file; 					
+                        } 				
+                    } 			
+                } 			
+                chdir('../'); 		
+            } 		
+            closedir( $handle ); 	
+        } 	
+        return $filenames; 
+    } 
+    
+//    public function GetFilesFromDir($dir)
+//    {
+//        
+//    }
 }
 
 ?>

@@ -7,6 +7,10 @@
     $login = urldecode(base64_decode($_POST['login']));
     $pass = urldecode(base64_decode($_POST['password']));
 
+    if (preg_match("/\d+/", $login)) {
+        $login = "'".$login."'";
+    }
+
     $data = $db->SelectWhere([], [
         "fy_adm_login"=>$login,
         "fy_adm_pass"=>"'".md5($pass)."'"

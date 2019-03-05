@@ -1,0 +1,96 @@
+
+#####
+[2019-02-18 12:13:41]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/#::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 12:19:29]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/news/20/V Kanade postroyat gorod kotorii budet znatb o svoih dzjitelyah vse/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 12:19:40]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 12:19:44]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/help/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 12:19:53]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/#::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 12:41:26]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/news/19/V Rossii nachnut razrabotku prilodzjeniya dlya udostovereniya lichnosti/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 12:41:36]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 13:41:22]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/help/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 13:42:51]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/download-app/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 13:42:56]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/help/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 19:32:46]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/help/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-02-18 23:47:47]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"72.0.3626","majorVersion":72,"minorVersion":0,"patchVersion":3626,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/help/::load-page
+IP: 127.0.0.1

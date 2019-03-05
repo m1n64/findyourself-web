@@ -10,13 +10,13 @@ function Resize() {
     });
 }
 
-function RusToEngURL(url){
+function RusToEng(url){
     var lr = "абвгдеёжзийклмнопрстуфхцчшщъыьэюя";
-    var lru = "АБВГДЕЁЖЗИКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
+    var lru = "АБВГДЕЁЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЫЬЭЮЯ";
     var tr = ["a", "b", "v", "g", "d", "e", "e", "dzj", "z", "i", "i",
         "k", "l", "m", "n", "o", "p", "r", "s", "t", "u", "f", "h", "c",
-        "ch", "sh", "sch", "", "i", "", "e", "y", "ya"];
-    var tru = ["A","B","V","G","D","E","E","DZJ","Z","I","I","K","L","M","N","O","P","R","S","T","U","F","H","C","CH","SH","SCH","","I","","E","Y","YA"]
+        "ch", "sh", "sch", "", "i", "b", "e", "y", "ya"];
+    var tru = ["A","B","V","G","D","E","E","DZJ","Z","I","I","K","L","M","N","O","P","R","S","T","U","F","H","C","CH","SH","SCH","","I","b","E","Y","YA"];
     
     var newurl = "";
     
@@ -24,6 +24,13 @@ function RusToEngURL(url){
         return tr[lr.indexOf(str)] || tru[lru.indexOf(str)];
     }); 
     return newurl;
+}
+
+function RusToEngURL(url){
+    var nu = RusToEng(url);
+    nu = nu.replace(/(»)|(«)|,|\.|"|'|\?|!|;|:|\(|\)|\[|\]/g, "");
+    nu = nu.replace(/\s/g, "+");
+    return nu;
 }
 
 function isValidEmailAddress(emailAddress) {
@@ -60,4 +67,14 @@ function getCookie(cookieName) {
 /* Delete a cookie */
 function deleteCookie(name, path) {
  setCookie(name, path, "", -1);
+}
+
+function getCoords(elem) { // кроме IE8-
+  var box = elem.getBoundingClientRect();
+
+  return {
+    top: box.top + pageYOffset,
+    left: box.left + pageXOffset
+  };
+
 }

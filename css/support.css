@@ -1,0 +1,10 @@
+/* CSS Document */
+body { background-color: #e1f5fe; }
+
+input.browser-default, textarea.browser-default { text-rendering: auto; background-color: #FFF; border: #9f9f9f solid 1px; border-radius: 7px; resize: none; }
+
+input.browser-default:focus, textarea.browser-default:focus { border: #84b8ff solid 1px; background-color: #e7e7e7; transition: 0.3s; }
+
+input.browser-default:not(:focus), textarea.browser-default:not(:focus) { background-color: white; transition: 0.3s; }
+
+#search { cursor: pointer; }

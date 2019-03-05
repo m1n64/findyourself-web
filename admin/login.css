@@ -64,3 +64,65 @@ textarea:focus {
 .date{
     color: rgba(123,122,255,1.00);
 }
+
+.comments {
+    padding: 25px;
+    background-color: rgba(234,255,253,1.00);
+}
+.comment {
+    border: rgba(167,185,255,1.00) solid 1px;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.70);
+}
+.comment > span {
+    color: rgba(71,71,71,1.00);
+}
+.name-commentator {
+    color: rgba(25,25,25,1.00);
+}
+.text-comment {
+    /*  FLY TO STAY ALIVE BABY FLYYYYYY   */
+}
+.delComment, .delAccount {
+    color: rgba(255,0,4,1.00);
+    cursor: pointer;
+}
+
+.navigator {
+    position: fixed;
+    top: 55%;
+    left: 10px;
+    background-color: #E9F8FF;
+    padding: 10px;
+    border: #8ACEFF solid 2px;
+    z-index: 10;
+}
+.navigator-li {
+    font-size: 15px;
+    cursor: pointer;
+    border: #9BBFFF solid 1px;
+    padding: 10px;
+}
+.navigator-li:hover {
+    background-color: #F6FAFF;
+}
+
+.logPanel {
+    border: #90CAF9 solid 1px;
+
+}
+
+.openLog {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.accounts {
+    background-color: #EBF7FF;
+    padding: 10px;
+    border: #76B4FF solid 1px;
+}
+/*
+
+ПОКА МЫ ВДВОЁМ
+МЫ ТОЧНО НЕ БУДЕМ СПАААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААААТЬ*/

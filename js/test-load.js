@@ -1,7 +1,4 @@
-$(document).load(load());
-
-
-function load() {
+function load(i) {
 
     try {
         var prof = {
@@ -106,10 +103,12 @@ function load() {
         }
 
         var elem = $(".before");
-        for (var i = 0; i < prof.len; i++) {
-            var text = "<div class=\"main-test b" + i + " center-block\"><div class=\"hide-on-med-and-up\"><b>Вопрос " + (i + 1) + ":</b></div>\n<div class=\"col s12 m6 l6 main-test-left\">\n\t<label>\n\t\t<input class=\"with-gap variant\" from=\"a\" type=\"radio\" name=\"q" + (i + 1) + "\" id=\"q" + (i + 1) + "\"/>\n\t\t<span to=\"q" + (i + 1) + "\">" + prof.prof1[i] + "</span>\n\t</label>\n</div>\n<div class=\"col s12 m6 l6 main-test-right\">\n\t<label>\n\t\t<input class=\"with-gap variant\" from=\"b\" type=\"radio\" name=\"q" + (i + 1) + "\" id=\"q" + (i + 1) + "\"/>\n\t\t<span to=\"q" + (i + 1) + "\">" + prof.prof2[i] + "</span>\n\t</label>\n</div>\n</div>";
-            $(elem).before(text);
-        }
+        var text = "<div class=\"main-test b" + i + " center-block\" id=\"quest"+i+"\"><div class=\"hide-on-med-and-up\"><b>Вопрос " + (i + 1) + ":</b></div>\n<div class=\"col s12 m6 l6 main-test-left\">\n\t<label>\n\t\t<input class=\"with-gap variant\" from=\"a\" type=\"radio\" name=\"q" + (i + 1) + "\" id=\"q" + (i + 1) + "\"/>\n\t\t<span to=\"q" + (i + 1) + "\">" + prof.prof1[i] + "</span>\n\t</label>\n</div>\n<div class=\"col s12 m6 l6 main-test-right\">\n\t<label>\n\t\t<input class=\"with-gap variant\" from=\"b\" type=\"radio\" name=\"q" + (i + 1) + "\" id=\"q" + (i + 1) + "\"/>\n\t\t<span to=\"q" + (i + 1) + "\">" + prof.prof2[i] + "</span>\n\t</label>\n</div>\n</div>";
+        $(elem).before(text);
+//        for (var i = 0; i < prof.len; i++) {
+//            
+//            
+//        }
          
     } catch (ex) {
         //let $errorelem = $(".js-error > #error");

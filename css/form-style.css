@@ -73,4 +73,7 @@ textarea.materialize-textarea:focus:not([readonly]) {
 .dropdown-content li>a, .dropdown-content li>span {
     color: #42a5f5;
 }
-/*база данных - именованная совокупность данных, отражающее состояние объектов и их отношений в рассматриваемой предметной области*/
+
+.pagination li.active {
+    background-color: #42a5f5;
+}

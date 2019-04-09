@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <base href="<?php echo $_SERVER['REQUEST_SCHEME'] . '://' .$_SERVER['SERVER_NAME'].'/';  ?>">
+    <base href="<?php echo stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://' . $_SERVER['SERVER_NAME'].'/';  ?>" />
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -142,7 +142,7 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2018 SPBG's Team. Все права защищены!
+                © 2018 BRICK. Все права защищены!
                 <a class="grey-text text-lighten-4 right" href="https://vk.com/spbg_off" target="_blank">VK</a>
             </div>
         </div>

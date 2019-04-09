@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <base href="http://<?php echo $_SERVER["SERVER_NAME"];?>/"/>
+    <base href="<?php echo $_SERVER['REQUEST_SCHEME'] . '://' .$_SERVER['SERVER_NAME'].'/';  ?>">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -15,6 +15,12 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
+    <script>
+        if (Sniff.browser.fullName == "Internet Explorer") {
+            location.assign(location.protocol+"//"+location.host+"/errors/BadBrowser.html");
+        }
+    </script>
 </head>
 
 <body>
@@ -50,8 +56,7 @@
         <li><a href="download-app/" class="blue-text lighten-1">Мобильное приложение</a>
         </li>
     </ul>
-    
-    
+
     <main class="row-main">
         <div class="row">
             <div class="col s12 m12 l12 center-align">
@@ -59,12 +64,12 @@
             </div>
             <div class="container">
             <div class="col s12 m12 l12 center after">
-                <span class="main-test-text">Вам предлагается 43 пары профессий, причем каждой паре Вы обязаны выбрать одну: наиболее желательную или наименее «противную».</span>
+                <span class="main-test-text">Вам предлагается пары профессий, причем каждой паре Вы обязаны выбрать одну: наиболее желательную или наименее «противную».</span>
             </div>
             </div>
             <div class="container" id="head">
                 <div class="col s12 m12 l12 center before">
-                    <a class="waves-effect waves-light btn blue lighten-1" id="result">Результат</a>
+<!--                    <a class="waves-effect waves-light btn blue lighten-1" id="result">Результат</a>-->
                 </div>
                 <div class="col s12 m12 l12 description">
                     <span>Важно подчеркнуть, что каждый человек обладает личностными свойствами характерными для всех шести типов, однако доминируют при этом черты всего лишь одного или нескольких типов.</span>
@@ -102,7 +107,7 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Ссылки</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="http://uoggmk.by" target="_blank">Официальный сайт ГГМК</a>
+                        <li><a class="grey-text text-lighten-3" href="http://brickweb.ru" target="_blank">BRICK</a>
                         </li>
                     </ul>
                 </div>
@@ -118,15 +123,14 @@
         <!--JavaScript at end of body for optimized loading-->
         <script type="text/javascript" src="libs/jq.min.js"></script>
         <script type="text/javascript" src="js/js-errors.js"></script>
-        <script type="text/javascript" src="js/functions.js"></script>
-        <script type="text/javascript" src="js/test-load.js"></script>
+        <script type="text/javascript" src="js/functions.js"></script>   
         <script type="text/javascript" src="js/test-main.js"></script>
+        <script type="text/javascript" src="js/test-load.js"></script>
         <script type="text/javascript" src="libs/base64.js"></script> 
         <script type="text/javascript" src="libs/Chartjs/Chart.bundle.min.js"></script>
         <script type="text/javascript" src="libs/Chartjs/Chart.min.js"></script>
         <script type="text/javascript" src="libs/material/js/materialize.min.js"></script>
         <script type="text/javascript" src="js/logsave.js"></script>
-        <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
     
         <script>
             //do not watch than!

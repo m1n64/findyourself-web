@@ -1,0 +1,29 @@
+/* CSS Document */
+
+$size: 1px;
+$color-bg: #e1f5fe;
+
+body {
+    background-color: $color-bg;
+}
+
+input.browser-default, textarea.browser-default {
+    text-rendering: auto;
+    background-color: #FFF;
+    border: rgba(159,159,159,1.00) solid $size;
+    border-radius: $size+6px;
+    resize: none;
+}
+input.browser-default:focus, textarea.browser-default:focus {
+    border: rgba(132,184,255,1.00) solid $size;
+    background-color: rgba(231,231,231,1.00);
+    transition: 0.3s;
+}
+input.browser-default:not(:focus), textarea.browser-default:not(:focus){
+    background-color: rgba(255,255,255,1.00);
+    transition: 0.3s;
+}
+
+#search {
+    cursor: pointer;
+}

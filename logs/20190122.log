@@ -1,0 +1,104 @@
+
+#####
+[2019-01-22 19:38:51]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/admin/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:39:58]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/admin/::exit-from-system[adm: D87917402494CB1A3366D3C1E7295F42]
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:39:59]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/admin/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:40:04]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/admin/::login-in-system[adm: D87917402494CB1A3366D3C1E7295F42]
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:40:04]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/admin/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:40:49]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/#::load-page
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:41:21]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/admin/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:41:33]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/admin/::log-view[adm: D87917402494CB1A3366D3C1E7295F42]
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:41:36]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/admin/::log-view[adm: D87917402494CB1A3366D3C1E7295F42]
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:41:47]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/admin/::log-view[adm: D87917402494CB1A3366D3C1E7295F42]
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:43:21]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/#::load-page
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:46:30]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/news/3/Top-10 samih vostrebovannih professii v Belarusi/::load-page
+IP: 127.0.0.1
+
+#####
+[2019-01-22 19:46:38]
+TYPE: web
+DATA: {"browser":{"fullName":"Chrome","name":"chrome","version":"71.0.3578","majorVersion":71,"minorVersion":0,"patchVersion":3578,"engine":"webkit"},"os":{"fullName":"Windows","name":"win","version":"10.0","versionName":"10","versionAltNames":[],"majorVersion":10,"minorVersion":0,"patchVersion":null},"features":{"bw":false,"mobile":false,"tv":false,"proxy":false}}
+DID: SCREEN: {"width":1600,"height":900}
+http://project/::load-page
+IP: 127.0.0.1

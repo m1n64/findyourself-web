@@ -13,11 +13,19 @@
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
+    <title>FindYourself</title>
+
+    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
+    <script>
+        if (Sniff.browser.fullName == "Internet Explorer") {
+            location.assign(location.protocol+"//"+location.host+"/errors/BadBrowser.html");
+        }
+    </script>
 </head>
 
 <body>
 
-    <!-- Каруселька 
+    <!-- Каруселька
     <div class="full-width">
         <div class="carousel carousel-slider">
             <a class="carousel-item" href="#one!"><img src="images/kruzhka.png"></a>
@@ -29,10 +37,10 @@
     <div class="carousel carousel-slider center" style="height: 91vh;">
         <div class="carousel-fixed-item center">
         </div>
-        <div class="carousel-item first-item white-text" href="#one!">
+        <div class="carousel-item first-item white-text lighten-5" href="#one!">
             <div class="txt">
-                <h2>«Когда-нибудь потом»</h2>
-                <p class="white-text"> – опаснейшая болезнь, которая рано или поздно похоронит ваши мечты.</p>
+                <h2>Какой-то текст</h2>
+                <p class="white-text">Маленький какой-то текст</p>
             </div>
         </div>
         <div class="carousel-item second-item white-text" href="#two!">
@@ -54,7 +62,7 @@
     <nav class="pushpin-nav push_nv">
         <div class="nav-wrapper blue lighten-1">
             <div class="container" id="head">
-                <a href="#" class="brand-logo hide-on-med-and-down">FindYourself</a>
+                <a href="#"> <img src="images/LogoWhite.png" class="brand-logo hide-on-med-and-down logo-img"> </a>
                 <a class='dropdown-trigger hide-on-large-only show-on-medium-and-down' href='#' data-target='dropdown1'>  <i class="large material-icons burger">dehaze</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
                     <li><a href="professions/">Профессии</a>
@@ -85,20 +93,20 @@
                 В этом приложении вы сможете просмотреть информацию о профессиях и учереждениях образования, куда можно поступать. Так же пройти тест, определяющий вашу склонность к какой-либо профессии.
             </p>
             <div class="alpha">
-                <h2 style="margin-top: 5px;">2.15.1B</h2>
+                <h2 style="margin-top: 5px;">2.25.6B</h2>
                 <p style="color:red;">Приложение находиться в Бета версии!
                 </p>
 
                 <ul class="browser-default list">
                     <li>Прохождение теста и сохранение результата</li>
-                    <li>Некоторые баг-фисты</li>
-                    <li>Редизайн</li>
+                    <li>Некоторые баг-фиксы</li>
+                    <li>Ещё баг-фиксы!</li>
                 </ul>
             </div>
             <div class="row">
                 <div class="down right">
-                    <p class="version">Версия 2.15.1B</p>
-                    <a href="files/app/2_15_1B.apk" download class="waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">file_download</i>Скачать</a>
+                    <p class="version">Версия 2.25.6B</p>
+                    <a href="files/app/2_25_6B.apk" download class="waves-effect waves-light blue lighten-1 btn"><i class="material-icons left">file_download</i>Скачать</a>
                 </div>
             </div>
 
@@ -107,7 +115,7 @@
 
 
     <div class="parallax-container center-align">
-        <h4 class="par_text">Наши преимущества</h4>
+        <h4 class="par_text">Квалификации</h4>
         <div class="parallax"><img src="images/office.jpg">
         </div>
     </div>
@@ -166,10 +174,16 @@
                 <h4 class="preimush">Юристы</h4>
                 <blockquote class="left-align txt_car">
                     Но только опытные. Выпускникам юрфаков по-прежнему сложно будет трудоустроиться по специальности.
-
                 </blockquote>
             </div>
         </div>
+
+        <div class="row" style="margin-top: 10px">
+          <div class="col s12 m12 l12 center-align">
+              <a href="professions.php" class="waves-effect waves-light blue lighten-1 btn">больше...</a>
+          </div>
+        </div>
+
     </div>
 
     <div class="parallax-container center-align">
@@ -520,7 +534,7 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Ссылки</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="http://uoggmk.by" target="_blank">Официальный сайт ГГМК</a>
+                        <li><a class="grey-text text-lighten-3" href="http://brickweb.ru" target="_blank">BRICK</a>
                         </li>
                     </ul>
                 </div>
@@ -534,16 +548,16 @@
         </div>
     </footer>
 
-    <?php 
+    <?php
         include $_SERVER[ 'DOCUMENT_ROOT' ] . "/modules/db.class.php";
         include $_SERVER[ 'DOCUMENT_ROOT' ] . "/includes/db_connect.inc.php";
-    
+
         $db = new DBExpander($link);
-    
+
         $news = $db->Select([], "fy_news", "ORDER BY fy_news_date DESC");
         $news = urlencode($news);
         echo "<pre class=\"hidden\" id=\"json\" data-json=\"{$news}\"></pre>";
-        
+
     ?>
 
     <!--JavaScript at end of body for optimized loading-->
@@ -553,7 +567,6 @@
     <script type="text/javascript" src="libs/base64.js"></script>
     <script type="text/javascript" src="libs/material/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/logsave.js"></script>
-    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
     <script type="text/javascript" src="libs/handeles.js"></script>
 
     <script>
@@ -710,9 +723,9 @@
                 } ]
                 //]
             } );
-            
+
         }
-        
+
         for (let i = 0; i < news.length; i++){
             hand.PicReplacer( {
                 elems: [ {
@@ -766,71 +779,71 @@
                 } ]
                 // ]
             }, i );
-            
+
             hand.AttrReplacer({
                 elems: [{
                     elem: "href:c_N1L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N2L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N3L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N4L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N5L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N6L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N7L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N8L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N9L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N10L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N11L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N12L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N13L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N14L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N15L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 },
                 {
                     elem: "href:c_N16L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"//+RusToEngURL(news[i].fy_news_name)+"/"
+                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
                 }]
             }, i);
         }

@@ -15,6 +15,6 @@
         "fy_comm_email"=>$email,
         "fy_comm_text"=>$comment,
         "fy_comm_ip"=>$_SERVER['REMOTE_ADDR'],
-        "fy_comm_date"=>date("Y-m-d")
+        "fy_comm_date"=>date("Y.m.d")
     ], "fy_news_comments");
 ?>

@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <?php
     $id = trim( $_GET[ "id" ] );
@@ -11,27 +11,35 @@
     $news = json_decode( $db->SelectWhere( [], [
         "fy_news_id" => $id
     ], "fy_news" ) );
-    
+
     $comments = $db->SelectWhere([],[
         "fy_comm_news_id"=>$id
     ],"fy_news_comments");
-            
+
     $num_comments = count(json_decode($comments));
     ?>
 <head>
-    <base href="http://<?php echo $_SERVER[ 'SERVER_NAME' ];?>/"/>
+    <base href="<?php echo $_SERVER['REQUEST_SCHEME'] . '://' .$_SERVER['SERVER_NAME'].'/';  ?>">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="libs/material/css/materialize.min.css" media="screen,projection"/>
     <link type="text/css" rel="stylesheet" href="css/form-style.css">
     <link type="text/css" rel="stylesheet" href="css/style-view_content.css"/>
+    <link type="text/css" rel="stylesheet" href="libs/emoji/emoji.css"/>
     <link rel="icon" href="images/icon-96-xhdpi.png" type="image/x-icon"/>
 
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <title><?php echo $news[0]->fy_news_name; ?></title>
+
+    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
+    <script>
+        if (Sniff.browser.fullName == "Internet Explorer") {
+            location.assign(location.protocol+"//"+location.host+"/errors/BadBrowser.html");
+        }
+    </script>
 </head>
 
 <body>
@@ -91,9 +99,9 @@
 
                         <div class="chat date_cont center-align">
                             <i class="material-icons d_icon">chat</i>
-                            <p id="count">
+                            <p id="count" class="num_comments"> <!--схера ли индивидуальный тут класс, а не ИД? да потому что кто-то из нас мудак, который прописал одинаковые ID и мы хуй знает, куда они ведут. вот так вот -_- -->
                                 <?php echo $num_comments; ?>
-                            
+
                             </p>
                         </div>
 
@@ -135,6 +143,85 @@
             <div class="col s12 l12">
                 <div class="center-align" style="margin-top: 30px;">
                     <span>Комментарий: </span>
+                    <!--
+                        коды эмодзи отсюда:
+                        https://unicodey.com/emoji-data/table.htm
+                    -->
+                    <div class="row emoji-list">
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":smile:">:smile:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":joy:">:joy:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":laughing:">:laughing:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":innocent:">:innocent:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":smiling_imp:">:smiling_imp:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":wink:">:wink:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":relieved:">:relieved:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":heart_eyes:">:heart_eyes:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":smirk:">:smirk:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":kissing_closed_eyes:">:kissing_closed_eyes:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":angry:">:angry:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":anguished:">:anguished:</span>
+                        </div>
+
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":tired_face:">:tired_face:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":flushed:">:flushed:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":disappointed_relieved:">:disappointed_relieved:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":upside_down_face:">:upside_down_face:</span> <!--🙃 козырь-емодзи-->
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":thinking_face:">:thinking_face:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":the_horns:">:the_horns:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":face_with_hand_over_mouth:">:face_with_hand_over_mouth:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":face_palm:">:face_palm:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":neutral_face:">:neutral_face:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":kissing_heart:">:kissing_heart:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":anguished:">:anguished:</span>
+                        </div>
+                        <div class="col s1 m1 l1">
+                            <span class="emoji_add" emoji=":dizzy_face:">:dizzy_face:</span>
+                        </div>
+                    </div>
                     <textarea name="comment" id="comment" class="browser-default" style="height: 50px;"></textarea>
                 </div>
             </div>
@@ -148,12 +235,12 @@
                 $comments = json_decode($comments);
         ?>
         <div class="row">
-            <div class="col s12 l12">
+            <div class="col s12 l12" id="addCommentList">
                 <?php for($i = 0; $i < count($comments); $i++) { ?>
-                    <div class="card">
+                    <div class="card" id="c<?php echo $i; ?>">
                         <div class="card-content">
                           <span class="card-title"><?php echo $comments[$i]->fy_comm_name; ?></span>
-                          <span class="right"><?php echo $comments[$i]->fy_comm_date; ?></span>  
+                          <span class="right"><?php echo $comments[$i]->fy_comm_date; ?></span>
                             <p><?php echo $comments[$i]->fy_comm_text; ?></p>
                         </div>
                     </div>
@@ -175,7 +262,7 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Ссылки</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="http://uoggmk.by" target="_blank">Официальный сайт ГГМК</a>
+                        <li><a class="grey-text text-lighten-3" href="http://brickweb.ru" target="_blank">BRICK</a>
                         </li>
                     </ul>
                 </div>
@@ -192,12 +279,14 @@
     <!--JavaScript at end of body for optimized loading-->
     <script type="text/javascript" src="libs/jq.min.js"></script>
     <script type="text/javascript" src="js/functions.js"></script>
+    <script type="text/javascript" src="libs/emoji/emoji.js"></script>
+    <script type="text/javascript" src="libs/emoji/jquery.emoji.js"></script>
     <script type="text/javascript" src="js/view_content.js"></script>
     <script type="text/javascript" src="libs/base64.js"></script>
     <script type="text/javascript" src="libs/material/js/materialize.min.js"></script>
     <script type="text/javascript" src="js/logsave.js"></script>
-    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
     <script>
+
         var log = new Log( JSON.stringify( Sniff ), location.href + "::load-page" );
         log.SaveLog();
     </script>

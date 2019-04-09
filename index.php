@@ -17,8 +17,8 @@
 
     <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
     <script>
-        if (Sniff.browser.fullName == "Internet Explorer") {
-            location.assign(location.protocol+"//"+location.host+"/errors/BadBrowser.html");
+        if ( Sniff.browser.fullName == "Internet Explorer" ) {
+            location.assign( location.protocol + "//" + location.host + "/errors/BadBrowser.html" );
         }
     </script>
 </head>
@@ -179,9 +179,9 @@
         </div>
 
         <div class="row" style="margin-top: 10px">
-          <div class="col s12 m12 l12 center-align">
-              <a href="professions.php" class="waves-effect waves-light blue lighten-1 btn">больше...</a>
-          </div>
+            <div class="col s12 m12 l12 center-align">
+                <a href="professions/" class="waves-effect waves-light blue lighten-1 btn">больше...</a>
+            </div>
         </div>
 
     </div>
@@ -517,8 +517,14 @@
                         </div>
                     </div>
                 </div>
+
             </div>
 
+        </div>
+        <div class="row" style="margin-top: 10px">
+            <div class="col s12 m12 l12 center-align">
+                <a href="news-list/" class="waves-effect waves-light blue lighten-1 btn">больше...</a>
+            </div>
         </div>
     </div>
 
@@ -542,21 +548,21 @@
         </div>
         <div class="footer-copyright">
             <div class="container">
-                © 2018 SPBG's Team. Все права защищены!
+                © 2018 BRICK. Все права защищены!
                 <a class="grey-text text-lighten-4 right" href="https://vk.com/spbg_off" target="_blank">VK</a>
             </div>
         </div>
     </footer>
 
     <?php
-        include $_SERVER[ 'DOCUMENT_ROOT' ] . "/modules/db.class.php";
-        include $_SERVER[ 'DOCUMENT_ROOT' ] . "/includes/db_connect.inc.php";
+    include $_SERVER[ 'DOCUMENT_ROOT' ] . "/modules/db.class.php";
+    include $_SERVER[ 'DOCUMENT_ROOT' ] . "/includes/db_connect.inc.php";
 
-        $db = new DBExpander($link);
+    $db = new DBExpander( $link );
 
-        $news = $db->Select([], "fy_news", "ORDER BY fy_news_date DESC");
-        $news = urlencode($news);
-        echo "<pre class=\"hidden\" id=\"json\" data-json=\"{$news}\"></pre>";
+    $news = $db->Select( [], "fy_news", "ORDER BY fy_news_date DESC" );
+    $news = urlencode( $news );
+    echo "<pre class=\"hidden\" id=\"json\" data-json=\"{$news}\"></pre>";
 
     ?>
 
@@ -571,281 +577,266 @@
 
     <script>
         var hand = new Handel();
-        var news = JSON.parse( decodeURIComponent($( "#json" ).attr("data-json")) );
-        $( "#json" ).attr("data-json", "");
+        var news = JSON.parse( decodeURIComponent( $( "#json" ).attr( "data-json" ) ) );
+        $( "#json" ).attr( "data-json", "" );
         var classes = [ "c_N1", "c_N2", "c_N3", "c_N4", "c_N5", "c_N6", "c_N7", "c_N8", "c_N9", "c_N10", "c_N11", "c_N12", "c_N13", "c_N14", "c_N15", "c_N16" ];
         for ( let i = 0; i < news.length; i++ ) {
             hand.JSONReplacer( {
                 elems: [ {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name1",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name1",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc1",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc1",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name2",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name2",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc2",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc2",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name3",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name3",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc3",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc3",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name4",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name4",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc4",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc4",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name5",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name5",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc5",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc5",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name6",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name6",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc6",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc6",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name7",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name7",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc7",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc7",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name8",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name8",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc8",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc8",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name9",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name9",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc9",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc9",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name10",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name10",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc10",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc10",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name11",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name11",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc11",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc11",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name12",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name12",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc12",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc12",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name13",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name13",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc13",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc13",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name14",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name14",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc14",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc14",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name15",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name15",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc15",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
                     }, {
-                        elem: "news_desc15",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                }, {
-                    classParentElem: classes[ i ],
-                    data: JSON.stringify( [ {
-                        elem: "news_name16",
-                        data: news[ i ].fy_news_name.replace(/\+/g, " ")
-                    }, {
-                        elem: "news_desc16",
-                        data: news[ i ].fy_news_short_descr.replace(/\+/g, " ")
-                    } ] )
-                } ]
-                //]
+                        classParentElem: classes[ i ],
+                        data: JSON.stringify( [ {
+                            elem: "news_name16",
+                            data: news[ i ].fy_news_name.replace( /\+/g, " " )
+                        }, {
+                            elem: "news_desc16",
+                            data: news[ i ].fy_news_short_descr.replace( /\+/g, " " )
+                        } ] )
+                    } ]
+                    //]
             } );
 
         }
 
-        for (let i = 0; i < news.length; i++){
+        for ( let i = 0; i < news.length; i++ ) {
             hand.PicReplacer( {
                 elems: [ {
-                    elem: "src:c_N1P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N2P2",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N3P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N4P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N5P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N6P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N7P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N8P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N9P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N10P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N11P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N12P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N13P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N14P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N15P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                }, {
-                    elem: "src:c_N16P1",
-                    data: news[ i ].fy_news_pic.replace(/\+/g, " ")
-                } ]
-                // ]
+                        elem: "src:c_N1P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N2P2",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N3P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N4P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N5P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N6P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N7P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N8P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N9P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N10P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N11P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N12P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N13P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N14P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N15P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    }, {
+                        elem: "src:c_N16P1",
+                        data: news[ i ].fy_news_pic.replace( /\+/g, " " )
+                    } ]
+                    // ]
             }, i );
 
-            hand.AttrReplacer({
-                elems: [{
+            hand.AttrReplacer( {
+                elems: [ {
                     elem: "href:c_N1L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N2L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N3L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N4L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N5L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N6L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N7L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N8L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N9L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N10L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N11L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N12L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N13L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N14L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N15L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                },
-                {
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                }, {
                     elem: "href:c_N16L1",
-                    data: location.protocol+"//"+location.host+"/news/"+news[i].fy_news_id+"/"+RusToEngURL(news[i].fy_news_name)+"/"
-                }]
-            }, i);
+                    data: location.protocol + "//" + location.host + "/news/" + news[ i ].fy_news_id + "/" + RusToEngURL( news[ i ].fy_news_name ) + "/"
+                } ]
+            }, i );
         }
     </script>
 

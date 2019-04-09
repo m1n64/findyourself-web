@@ -534,7 +534,7 @@
                 <div class="col l4 offset-l2 s12">
                     <h5 class="white-text">Ссылки</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="http://uoggmk.by" target="_blank">Официальный сайт ГГМК</a>
+                        <li><a class="grey-text text-lighten-3" href="http://brickweb.ru" target="_blank">BRICK</a>
                         </li>
                     </ul>
                 </div>

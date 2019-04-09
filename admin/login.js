@@ -1,4 +1,4 @@
-$(document).ready(function () {
+﻿$(document).ready(function () {
     'use strict';
     
     /*Убирал контейнер на nav панели при изменении размера экрана*/
@@ -28,11 +28,14 @@ $(document).ready(function () {
             (e) => {
                 if (e !== "no_data_in_table") {
                     let ea = JSON.parse(e);
-                    setCookie("auth_token", "/admin/", ea[0].fy_adm_token, 360);
+                    setCookie("auth_token", "/admin/", ea[0].fy_adm_token, 7);
                     let log = new Log(JSON.stringify( Sniff ), `${location.href}::login-in-system[adm: ${getCookie("auth_token")}]`);
                     log.SaveLog();
                     location.reload();
                 }
+		else {
+		    $("#login_error").html("Вход не удался!");
+		}
             }
         );
     });

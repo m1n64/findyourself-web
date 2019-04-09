@@ -13,8 +13,11 @@
     if (!is_dir($dir)) mkdir($dir); 
     
     $file = date("Ymd").".log";
-    
-    $data = "\n#####\n[".date("Y-m-d H:i:s")."]\n"."TYPE: web\nDATA: ".$data."\nDID: ".$did."\nIP: {$_SERVER["REMOTE_ADDR"]}\n";
+
+    $ip = $_SERVER['REMOTE_ADDR'];
+    $details = file_get_contents("http://ipinfo.io/{$ip}/json");
+
+    $data = "\n#####\n[".date("Y-m-d H:i:s")."]\n"."TYPE: web\nDATA: ".$data."\nDID: ".$did."\nIP: {$details}\n";
 
     $log = new Logger($data);
     $log->SaveToFile($dir.$file, $data);

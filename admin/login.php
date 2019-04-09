@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
     <?php
     include $_SERVER[ 'DOCUMENT_ROOT' ] . "/modules/db.class.php";
@@ -7,6 +7,7 @@
     $db = new DBExpander($link);
     ?>
     <head>
+<!--<base href="<?php echo stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://' . $_SERVER['SERVER_NAME'].'/';  ?>" />-->
     <base href="<?php echo $_SERVER['REQUEST_SCHEME'] . '://' .$_SERVER['SERVER_NAME'].'/';  ?>">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -85,6 +86,7 @@
                     <label for="pass">Пароль</label>
                     <span class="helper-text" data-error="" data-success="">Введите пароль от админ-панели</span>
                 </div>
+		<div><span id="login_error" class="red-text lighten-1"></span></div>
                 <div class="col s12 l12 white-text">
                     <button type="button" class="btn waves-effect waves-light blue lighten-1" id="subm">Войти</button>
                 </div>
@@ -96,8 +98,10 @@
         $access = $db->SelectWhere([], [
             "fy_adm_token"=>"'".$_COOKIE['auth_token']."'"
         ], "fy_admins");
-        $access = json_decode($access);
-
+        
+	if ($access !== "no_data_in_table") {
+        	$access = json_decode($access);
+	
     ?>
 <!--    QU5USUJSU00gRk9SRVZFUg==    -->
     <div class="row" id="add-news">
@@ -239,6 +243,8 @@
         
             $logs = FileApi::GetFilesFromDir($_SERVER[ 'DOCUMENT_ROOT' ] . "/logs/"); 
         
+            sort($logs);
+            $logs = array_reverse($logs);
             for($i = 0; $i < count($logs); $i++) {
                 $data = substr(basename($logs[$i]), 6, 2).".".substr(basename($logs[$i]), 4, 2).".".substr(basename($logs[$i]), 0, 4);
         ?>
@@ -319,6 +325,7 @@
                 </div>
             </div>
         </div>
+	   <?php } ?>
         <?php }?>
     <?php } ?>
 

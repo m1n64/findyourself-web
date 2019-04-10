@@ -11,11 +11,11 @@ $db = new DBExpander( $link );
 $p = ( int )( trim( $_GET[ 'p' ] ) == "" || ( int )trim( $_GET[ 'p' ] ) <= 0 ) ? 1 : trim( $_GET[ 'p' ] );
 $pageNum = 10;
 
-$pages = round( ( count( $news ) ) / $pageNum ) + 1;
+
 $start = $p * $pageNum - 1;
 $stop = ( $p <= 1 ) ? 0 : $p * $pageNum;
 $news = json_decode( $db->Select( [], "fy_news", "ORDER BY fy_news_date DESC LIMIT $pageNum OFFSET $stop" ) );
-
+$pages = round( ( count( $news ) ) / $pageNum ) + 1;
 ?>
 
 <head>
@@ -115,7 +115,7 @@ $news = json_decode( $db->Select( [], "fy_news", "ORDER BY fy_news_date DESC LIM
                     <li class="<?php echo $p-1 <= 0 ? 'disabled' : " "; ?> waves-effect"><a href="news-list/<?php echo $p-1 <= 0 ? 1 : $p-1; ?>"><i class="material-icons">chevron_left</i></a>
                     </li>
                     <?php
-                    for ( $i = 1; $i <= $pages; $i++ ) {
+                    for ( $i = 1; $i < $pages; $i++ ) {
                         if ( $i == $p ) {
                             ?>
                     <li class="active waves-effect">

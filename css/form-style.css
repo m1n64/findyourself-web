@@ -77,3 +77,27 @@ textarea.materialize-textarea:focus:not([readonly]) {
 .pagination li.active {
     background-color: #42a5f5;
 }
+
+.btn-link {
+    color: #1565c0;
+    background-color: white;
+    padding: 10px;
+    border-radius: 30px;
+    border: rgba(113,182,255,1.00) solid 1px;
+}
+.btn-link:hover {
+    transition: .5s;
+    color: #1528C0;
+    background-color: #D3ECFF;
+}
+.btn-link:not(:hover) {
+    transition: .5s;
+    color: #1565c0;
+    background-color: white;
+}
+.btn-link:active {
+    transition: 0s;
+    color: #4E0D8E;
+    background-color: #F0CEFF;
+    border: #FB71FF solid 1px;
+}

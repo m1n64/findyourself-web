@@ -85,7 +85,9 @@ textarea.materialize-textarea:focus:not([readonly]) {
     border-radius: 30px;
     border: rgba(113,182,255,1.00) solid 1px;
 }
+.btn-link:hover {
     transition: .5s;
+    color: #1528C0;
     background-color: #D3ECFF;
 }
 .btn-link:not(:hover) {

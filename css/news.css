@@ -1,20 +1,38 @@
 .news-short {
-  position: relative;
-  max-height: 350px;
-  overflow:hidden;
+    position: relative;
+    max-height: 350px;
+    overflow: hidden;
 }
 .news-short:after {
-  content: '';
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  background-image: linear-gradient( rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100% );
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-image: linear-gradient( rgba(255, 255, 255, 0) 50%, rgba(227,242,253,1.00) 100% );
+}
+.news-image {
+    height: 350px;
+}
+.card .card-image .card-title {
+    font-weight: bold;
+    color: rgba(255,255,255,1.00);
+    background-color: rgba(0,0,0,0.64);
+    width: 100%;
+}
+.card .card-image .card-title.background--light {
+  color: black;
 }
 
-.card.horizontal .card-image {
-    width: 30%;
-    height: 100%; 
-/*    каво? шо не робит?*/
+.card .card-image .card-title.background--dark {
+  color: white;
+}
+
+.card .card-image .card-title.background--complex {
+  color: rgba(193,193,193,1.00);
+}
+
+.news-link {
+    margin-top: 15px;
 }

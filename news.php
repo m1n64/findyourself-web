@@ -16,9 +16,6 @@ $pages = round( ( count( $news ) ) / $pageNum ) + 1;
 $start = $p * $pageNum - 1;
 $stop = ( $p <= 1 ) ? 0 : $p * $pageNum;
 
-//❤❤❤😙😙
-
-
 ?>
 
 <head>
@@ -46,14 +43,17 @@ $stop = ( $p <= 1 ) ? 0 : $p * $pageNum;
 
 <body>
 
-    <!-- Навбар -->
-
-    <nav class="pushpin-nav push_nv">
+    <div class="js-error">
+        <div id="error"></div>
+    </div>
+    <nav class="nav-fixed">
         <div class="nav-wrapper blue lighten-1">
             <div class="container" id="head">
-                <a href="/" class="brand-logo hide-on-med-and-down">FindYourself</a>
-                <a class='dropdown-trigger hide-on-large-only show-on-medium-and-down' href='#' data-target='dropdown1'>  <i class="large material-icons burger">dehaze</i></a>
+                <a href="#" class="brand-logo hide-on-med-and-down">FindYourself</a>
+                <a class='dropdown-trigger hide-on-large-only show-on-medium-and-down' href='download-app/#' data-target='dropdown1'>  <i class="large material-icons burger">dehaze</i></a>
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="#">Главная</a>
+                    </li>
                     <li><a href="professions/">Профессии</a>
                     </li>
                     <li><a href="test/">Тест</a>
@@ -64,9 +64,10 @@ $stop = ( $p <= 1 ) ? 0 : $p * $pageNum;
             </div>
         </div>
     </nav>
-
     <!-- Dropdown Structure -->
-    <ul id='dropdown1' class='dropdown-content blue-text lighten-1'>
+    <ul id='dropdown1' class='dropdown-content'>
+        <li><a href="#" class="blue-text lighten-1">Главная</a>
+        </li>
         <li><a href="professions/" class="blue-text lighten-1">Профессии</a>
         </li>
         <li><a href="test/" class="blue-text lighten-1">Тест</a>
@@ -74,12 +75,32 @@ $stop = ( $p <= 1 ) ? 0 : $p * $pageNum;
         <li><a href="download-app/" class="blue-text lighten-1">Мобильное приложение</a>
         </li>
     </ul>
+
+
     <?php 
         
     ?>
     <div class="container">
-        <div class="row ">
-
+        <div class="row center-block">
+            <?php foreach ($news as $n) { ?>
+            <div class="col s12  m11 l10">
+                <div class="card horizontal">
+                    <div class="card-image">
+                        <img src="pictures/<?php echo $n->fy_news_pic; ?>">
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <span class="card-title"></span>
+                            <div class="news-short">
+                                <p>
+                                    <?php echo $n->fy_news_short_descr;?>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <?php } ?>
         </div>
     </div>
     <div class="container">

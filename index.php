@@ -38,10 +38,10 @@
         <div class="carousel-fixed-item center">
         </div>
         <div class="carousel-item first-item white-text lighten-5" href="#one!">
-            <div class="txt">
-                <h2>Какой-то текст</h2>
-                <p class="white-text">Маленький какой-то текст</p>
-            </div>
+          <div class="txt">
+              <h2>Работа</h2>
+              <p class="white-text">- гораздо большее развлечение, чем развлечения.</p>
+          </div>
         </div>
         <div class="carousel-item second-item white-text" href="#two!">
             <div class="txt">

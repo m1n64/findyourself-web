@@ -162,3 +162,7 @@ ul>li {
 .txt_car{
     text-align: justify;
 }
+
+.card .card-image img {
+    height: 150px;
+}

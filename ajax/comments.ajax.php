@@ -9,6 +9,7 @@
     $email = trim($_POST['email']);
     $comment = trim($_POST['comment']);
 
+
     $db->Insert([
         "fy_comm_news_id"=>$id,
         "fy_comm_name"=>$name,

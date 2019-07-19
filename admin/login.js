@@ -1,4 +1,4 @@
-﻿$(document).ready(function () {
+$(document).ready(function () {
     'use strict';
     
     /*Убирал контейнер на nav панели при изменении размера экрана*/

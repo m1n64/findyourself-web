@@ -9,12 +9,12 @@ Options +FollowSymlinks
 RewriteCond   %{REQUEST_FILENAME} !-d
 RewriteCond   %{REQUEST_FILENAME} !-f
 
-RewriteRule ^test/$ test.php [QSA,L]
-RewriteRule ^download-app/$ download.php [QSA,L]
-RewriteRule ^professions/([a-z]*)?/?([0-9]*)?$ professions.php?act=$1&id=$2 [L]
-RewriteRule ^news/([0-9]+)/([A-Za-z0-9\+-_]+)/$ view_content.php?id=$1&name=$2 [L]
+RewriteRule ^test/$ index.php?page=test.php [QSA,L]
+RewriteRule ^download-app/$ index.php?page=download.php [QSA,L]
+RewriteRule ^professions/([a-z]*)?/?([0-9]*)?$ index.php?page=professions.php&act=$1&id=$2 [L]
+RewriteRule ^news/([0-9]+)/([A-Za-z0-9\+-_]+)/$ index.php?page=view_content.php&id=$1&name=$2 [L]
 RewriteRule ^admin/$ admin/login.php [QSA]
-RewriteRule ^news-list/([0-9]*)?$ news.php?p=$1 [L]
+RewriteRule ^news-list/([0-9]*)?$ index.php?page=news.php&p=$1 [L]
 
 
 ErrorDocument 403 /errors/403.html

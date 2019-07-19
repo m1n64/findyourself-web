@@ -12,7 +12,7 @@ $(document).ready(function () {
     var d = $(".card > .card-content").emoji($(".card > .card-content > p").html());
     for (let i = 0; i < d.length; i++) {
         let str = d[i].children[2].outerHTML;
-        console.log(str);
+        //console.log(str);
         $("#c"+i+" > .card-content > p").html(str);
     }
     

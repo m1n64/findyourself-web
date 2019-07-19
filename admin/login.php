@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <?php
     include $_SERVER[ 'DOCUMENT_ROOT' ] . "/modules/db.class.php";

@@ -1,4 +1,4 @@
-﻿function base64_encode( data ) {    
+function base64_encode( data ) {    
 
     data = escape(data);  
  

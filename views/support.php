@@ -1,5 +1,5 @@
 <?php
-include $_SERVER[ 'DOCUMENT_ROOT' ] . "/modules/sqlite.db.class.php";
+include $_SERVER['DOCUMENT_ROOT'] . "/modules/sqlite.db.class.php";
 
 $db = new DBExpander();
 

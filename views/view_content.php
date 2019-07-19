@@ -1,81 +1,26 @@
-﻿<!DOCTYPE html>
-<html>
-    <?php
-    $id = trim( $_GET[ "id" ] );
 
-    include $_SERVER[ 'DOCUMENT_ROOT' ] . "/modules/db.class.php";
-    include $_SERVER[ 'DOCUMENT_ROOT' ] . "/includes/db_connect.inc.php";
+ <?php
+ $id = trim( $_GET[ "id" ] );
 
-    $db = new DBExpander( $link );
+ include $_SERVER['DOCUMENT_ROOT'] . "/modules/db.class.php";
+ include $_SERVER['DOCUMENT_ROOT'] . "/includes/db_connect.inc.php";
 
-    $news = json_decode( $db->SelectWhere( [], [
-        "fy_news_id" => $id
-    ], "fy_news" ) );
+ $db = new DBExpander( $link );
 
-    $comments = $db->SelectWhere([],[
-        "fy_comm_news_id"=>$id
-    ],"fy_news_comments");
+ $news = json_decode( $db->SelectWhere( [], [
+     "fy_news_id" => $id
+ ], "fy_news" ) );
 
-    $num_comments = count(json_decode($comments));
-    ?>
-<head>
-    <base href="<?php echo stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://' . $_SERVER['SERVER_NAME'].'/';  ?>" />
-    <!--Import Google Icon Font-->
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <!--Import materialize.css-->
-    <link type="text/css" rel="stylesheet" href="libs/material/css/materialize.min.css" media="screen,projection"/>
-    <link type="text/css" rel="stylesheet" href="css/form-style.css">
-    <link type="text/css" rel="stylesheet" href="css/style-view_content.css"/>
-    <link type="text/css" rel="stylesheet" href="libs/emoji/emoji.css"/>
-    <link rel="icon" href="images/icon-96-xhdpi.png" type="image/x-icon"/>
+ $comments = $db->SelectWhere([],[
+     "fy_comm_news_id"=>$id
+ ],"fy_news_comments");
 
+ $num_comments = count(json_decode($comments));
 
-    <!--Let browser know website is optimized for mobile-->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title><?php echo $news[0]->fy_news_name; ?></title>
-
-    <script type="text/javascript" src="libs/Snif/sniffer.js"></script>
-    <script>
-        if (Sniff.browser.fullName == "Internet Explorer") {
-            location.assign(location.protocol+"//"+location.host+"/errors/BadBrowser.html");
-        }
-    </script>
-</head>
-
-<body>
-
-    <!-- Навбар -->
-
-    <nav class="pushpin-nav push_nv">
-        <div class="nav-wrapper blue lighten-1">
-            <div class="container" id="head">
-                <a href="/" class="brand-logo hide-on-med-and-down">FindYourself</a>
-                <a class='dropdown-trigger hide-on-large-only show-on-medium-and-down' href='#' data-target='dropdown1'>  <i class="large material-icons burger">dehaze</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a href="professions/">Профессии</a>
-                    </li>
-                    <li><a href="test/">Тест</a>
-                    </li>
-                    <li><a href="download-app/">Мобильное приложение</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-
-    <!-- Dropdown Structure -->
-    <ul id='dropdown1' class='dropdown-content blue-text lighten-1'>
-        <li><a href="professions/" class="blue-text lighten-1">Профессии</a>
-        </li>
-        <li><a href="test/" class="blue-text lighten-1">Тест</a>
-        </li>
-        <li><a href="download-app/" class="blue-text lighten-1">Мобильное приложение</a>
-        </li>
-    </ul>
-
-
-    <span style="display: none" id="hidden_id">
-        <?echo $id ?>
+ include $_SERVER['DOCUMENT_ROOT']."/views/components/header.php";
+ ?>
+ <span style="display: none" id="hidden_id">
+        <? echo $id ?>
     </span>
     <div class="container">
         <!--Заголовок статьи-->
@@ -249,47 +194,18 @@
         </div>
         <?php } ?>
     </div>
-<!--    -->
-    <footer class="page-footer blue lighten-1">
-        <div class="container">
-            <div class="row">
-                <div class="col l6 s12">
-                    <h5 class="white-text">Сайт "Найди Себя"</h5>
-                    <p class="grey-text text-lighten-4">Данный сайт содержит материалы из открытых источников.</p>
-                    <span class="footer-attention">Данный сайт собирает данные c устройства для статистики.</span>
 
-                </div>
-                <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Ссылки</h5>
-                    <ul>
-                        <li><a class="grey-text text-lighten-3" href="http://brickweb.ru" target="_blank">BRICK</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <div class="footer-copyright">
-            <div class="container">
-                © 2018 BRICK. Все права защищены!
-                <a class="grey-text text-lighten-4 right" href="https://vk.com/spbg_off" target="_blank">VK</a>
-            </div>
-        </div>
-    </footer>
+
+    <?php
+    include $_SERVER['DOCUMENT_ROOT']."/views/components/footer.php";
+    ?>
 
     <!--JavaScript at end of body for optimized loading-->
-    <script type="text/javascript" src="libs/jq.min.js"></script>
-    <script type="text/javascript" src="js/functions.js"></script>
-    <script type="text/javascript" src="libs/emoji/emoji.js"></script>
-    <script type="text/javascript" src="libs/emoji/jquery.emoji.js"></script>
-    <script type="text/javascript" src="js/view_content.js"></script>
-    <script type="text/javascript" src="libs/base64.js"></script>
-    <script type="text/javascript" src="libs/material/js/materialize.min.js"></script>
-    <script type="text/javascript" src="js/logsave.js"></script>
-    <script>
-
-        var log = new Log( JSON.stringify( Sniff ), location.href + "::load-page" );
-        log.SaveLog();
-    </script>
-</body>
-
-</html>
+    <script type="text/javascript" src="../libs/jq.min.js"></script>
+    <script type="text/javascript" src="../js/functions.js"></script>
+    <script type="text/javascript" src="../libs/emoji/emoji.js"></script>
+    <script type="text/javascript" src="../libs/emoji/jquery.emoji.js"></script>
+    <script type="text/javascript" src="../js/view_content.js"></script>
+    <script type="text/javascript" src="../libs/base64.js"></script>
+    <script type="text/javascript" src="../libs/material/js/materialize.min.js"></script>
+    <script type="text/javascript" src="../js/logsave.js"></script>

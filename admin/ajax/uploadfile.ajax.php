@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 $uploaddir = $_SERVER[ 'DOCUMENT_ROOT' ] . "/pictures/tmp/";
 if (!is_dir($uploaddir)) mkdir($uploaddir);

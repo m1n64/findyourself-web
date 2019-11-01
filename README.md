@@ -13,3 +13,6 @@ perms:
 Admin Panel:
 >> login: fy_admin
 >> pass: fy_admin1567
+
+
+01.11.2019 - ОПЕНСУРС ХУЛЕ
